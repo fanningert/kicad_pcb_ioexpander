@@ -17,23 +17,6 @@ preflight:
     - name: 'date'
       command: 'date --iso-8601=minutes'
 
-variants:
-  - name: 'PrimaryNodeESP32S3'
-    comment: 'Primary node with ESP32-S3'
-    type: kibom
-    file_id: _PrimaryNodeESP32S3
-    variant: PrimaryNodeESP32S3
-  - name: 'PrimaryNodeESP32Devkit'
-    comment: 'Primary node with ESP32-DevKit'
-    type: kibom
-    file_id: _PrimaryNodeESP32Devkit
-    variant: PrimaryNodeESP32Devkit
-  - name: 'SubNode'
-    comment: 'Full board'
-    type: kibom
-    file_id: _SubNode
-    variant: SubNode
-
 import:
   - file: JLCPCB_stencil_with_THT
   - file: PCBWay_stencil
