@@ -1,0 +1,56 @@
+name: KitBot - PCB production file generation
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  Fabrication-Core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate fabrication - Core
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: kibot/base.kibot.yaml
+          dir: pcb_core/Fabrication
+          schema: 'pcb_core/project.kicad_sch'
+          board: 'pcb_core/project.kicad_pcb'
+          verbose: 0
+      - name: Generate fabrication - Production
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: kibot/production.kibot.yaml
+          dir: pcb_core/Fabrication/production
+          schema: 'pcb_core/project.kicad_sch'
+          board: 'pcb_core/project.kicad_pcb'
+          verbose: 0
+      - name: Retrieve results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fabrication_Core
+          path: |
+            pcb_core/Fabrication/
+          if-no-files-found: warn
+          retention-days: 1
+  Create-Release:
+    runs-on: ubuntu-latest
+    needs: [Fabrication-Core]
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download assets
+        uses: actions/download-artifact@v4
+        with:
+          path: .
+          pattern: Fabrication_*
+      - name: release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "./Fabrication_Core"
+          artifactContentType: "application/zip"
+          draft: true
+          prerelease: false

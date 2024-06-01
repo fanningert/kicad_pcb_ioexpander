@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SX1509QBIULTRT")(type "KiCad")(uri "${KIPRJMOD}/library/SX1509QBIULTRT.kicad_sym")(options "")(descr ""))
+)
