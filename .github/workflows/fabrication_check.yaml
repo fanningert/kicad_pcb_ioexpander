@@ -83,7 +83,7 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
-        name: variant_primarynodeesp32s3
+        name: fabrication
         path: pcb_core
         retention-days: 1
 
