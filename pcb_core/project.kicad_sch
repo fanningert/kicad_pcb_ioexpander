@@ -2094,6 +2094,25 @@
 		)
 		(uuid fe3cb49b-883c-4b78-b819-067f4b37bf14)
 	)
+	(text_box "I2C Addresses: \n{A1} {A0}\nL L 0x3E\nL H 0x3F\nH L 0x70\nH H 0x71"
+		(exclude_from_sim no)
+		(at 20.32 24.13 0)
+		(size 17.78 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c6e5c33c-662f-4e04-98f6-bac24f115608")
+	)
 	(text "IO-Headers"
 		(exclude_from_sim no)
 		(at 164.338 18.542 0)
