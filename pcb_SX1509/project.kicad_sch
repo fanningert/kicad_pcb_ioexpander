@@ -1626,6 +1626,10 @@
 		(color 0 0 0 0)
 		(uuid "f2eb884d-9ba4-4310-bab7-eed523150f83")
 	)
+	(no_connect
+		(at 57.15 87.63)
+		(uuid "f54fa26f-9747-4efc-a627-74816dae10d1")
+	)
 	(wire
 		(pts
 			(xy 87.63 62.23) (xy 85.09 62.23)
@@ -2157,17 +2161,6 @@
 		)
 		(uuid "b35b79e7-0935-430e-baf8-052d096a9310")
 	)
-	(label "OSCIO"
-		(at 210.82 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0415f647-6f18-49de-8af8-ce84803c70a8")
-	)
 	(label "ADDR0"
 		(at 66.04 139.7 180)
 		(fields_autoplaced yes)
@@ -2212,7 +2205,7 @@
 		)
 		(uuid "19f5f3a0-08fc-4846-b232-a3a43c060b46")
 	)
-	(label "GNDD2"
+	(label "GNDD"
 		(at 85.09 73.66 270)
 		(fields_autoplaced yes)
 		(effects
@@ -2222,17 +2215,6 @@
 			(justify right bottom)
 		)
 		(uuid "1a6ceab2-03c2-4696-8bd6-f90bb9d205b9")
-	)
-	(label "ADDR0"
-		(at 210.82 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d0cb51c-726b-4506-aaba-a0746db4654f")
 	)
 	(label "IO1"
 		(at 172.72 30.48 180)
@@ -2245,6 +2227,17 @@
 		)
 		(uuid "1e7cabfa-fcfe-41ff-9770-c59cf609b9a9")
 	)
+	(label "+3.3V"
+		(at 227.33 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f523c9b-c987-4c49-ac99-bc973cf51af4")
+	)
 	(label "IO12"
 		(at 74.93 59.69 0)
 		(fields_autoplaced yes)
@@ -2256,7 +2249,7 @@
 		)
 		(uuid "24909fdb-98a8-4b54-b082-132291dd60a8")
 	)
-	(label "VCC2"
+	(label "+3.3V"
 		(at 87.63 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2311,17 +2304,6 @@
 		)
 		(uuid "31bac275-9c5a-4358-afaa-9c30fc8aef1a")
 	)
-	(label "VCC1"
-		(at 172.72 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d1e5043-1d7f-4c29-ae67-a346e40c7f95")
-	)
 	(label "ADDR1"
 		(at 54.61 87.63 270)
 		(fields_autoplaced yes)
@@ -2355,6 +2337,17 @@
 		)
 		(uuid "43609795-18af-4f12-b953-0fc66ff832ce")
 	)
+	(label "+3.3V"
+		(at 172.72 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c6aef62-1900-41b5-8eb3-8b8a0a8bbc3f")
+	)
 	(label "~{INT}"
 		(at 52.07 105.41 270)
 		(fields_autoplaced yes)
@@ -2377,7 +2370,7 @@
 		)
 		(uuid "5f824da3-8426-47eb-a8da-625275353f5c")
 	)
-	(label "GNDD1"
+	(label "GNDD"
 		(at 25.4 73.66 270)
 		(fields_autoplaced yes)
 		(effects
@@ -2398,17 +2391,6 @@
 			(justify right bottom)
 		)
 		(uuid "6ba3c80f-cec3-40c0-866d-079d4d986364")
-	)
-	(label "OSCIO"
-		(at 57.15 87.63 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e0ee47f-f777-493d-a273-2e71fffc653d")
 	)
 	(label "IO1"
 		(at 49.53 34.29 90)
@@ -2442,17 +2424,6 @@
 			(justify right bottom)
 		)
 		(uuid "758ffbff-e15e-444b-84c3-b064aea812b1")
-	)
-	(label "ADDR1"
-		(at 210.82 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75d9319b-d4e5-4795-a4c4-039079f633b6")
 	)
 	(label "IO10"
 		(at 190.5 34.29 180)
@@ -2509,7 +2480,7 @@
 		)
 		(uuid "91f0caf2-ad05-4a43-93f3-c24eb8630a89")
 	)
-	(label "GNDD1"
+	(label "GNDD"
 		(at 39.37 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2531,7 +2502,7 @@
 		)
 		(uuid "9454b48c-4429-4057-90ee-d4ae151bb07f")
 	)
-	(label "GNDD2"
+	(label "GNDD"
 		(at 190.5 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2541,6 +2512,17 @@
 			(justify right bottom)
 		)
 		(uuid "968ebb08-faa1-4dc4-a428-d906617fe887")
+	)
+	(label "+3.3V"
+		(at 190.5 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9695f404-4393-4795-a135-c6a057470a9c")
 	)
 	(label "IO3"
 		(at 172.72 38.1 180)
@@ -2553,17 +2535,6 @@
 		)
 		(uuid "9c11dfb8-aec5-44d6-a279-baa85f4118a0")
 	)
-	(label "~{RESET}"
-		(at 210.82 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ca8176a-ed96-477d-8537-448e0a7fe0e5")
-	)
 	(label "IO8"
 		(at 190.5 26.67 180)
 		(fields_autoplaced yes)
@@ -2575,7 +2546,7 @@
 		)
 		(uuid "9fd32acb-ff78-4b9e-ac60-63ae3560df44")
 	)
-	(label "GNDD2"
+	(label "GNDD"
 		(at 74.93 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2686,7 +2657,7 @@
 		(uuid "cd080054-6af1-489f-9c9e-5310ac5c6c21")
 	)
 	(label "GNDD"
-		(at 210.82 68.58 180)
+		(at 227.33 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2706,17 +2677,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3c20686-1b90-4ee9-8117-9b7de579116d")
-	)
-	(label "~{INT}"
-		(at 210.82 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d81fed21-f8d9-40fc-8c13-836d0d2fc06c")
 	)
 	(label "IO7"
 		(at 49.53 87.63 270)
@@ -2762,7 +2722,7 @@
 		)
 		(uuid "e168d4b4-82f4-4668-80b0-10ac58f510e2")
 	)
-	(label "GNDD1"
+	(label "GNDD"
 		(at 172.72 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2806,7 +2766,7 @@
 		)
 		(uuid "e96abfcf-eedc-4d4f-9962-580e4cebf1ba")
 	)
-	(label "VCC1"
+	(label "+3.3V"
 		(at 22.86 62.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2838,17 +2798,6 @@
 			(justify left bottom)
 		)
 		(uuid "f12040c2-9dab-4354-a445-e70b7c32af65")
-	)
-	(label "VCC2"
-		(at 190.5 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8803e09-0198-410c-b262-eb5a0ef7ca80")
 	)
 	(label "IO9"
 		(at 190.5 30.48 180)
@@ -3229,72 +3178,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 215.9 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b5d7a1f-137f-4fe6-a408-d1c906a843bc")
-		(property "Reference" "J25"
-			(at 218.186 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 218.44 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 215.9 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e03e874e-f0ed-4dad-94c8-1bd0897b8711")
-		)
-		(instances
-			(project "project"
-				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
 		(at 177.8 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3354,72 +3237,6 @@
 			(project "project"
 				(path "/eaded386-8ef5-4822-a552-66b037180f01"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 177.8 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c1f1323-308b-4f3a-ae1b-79674927faa5")
-		(property "Reference" "J17"
-			(at 180.086 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 180.34 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27573406-1625-4d0e-adc5-2da07d45de18")
-		)
-		(instances
-			(project "project"
-				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3854,7 +3671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm "
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 85.09 139.7 0)
 			(effects
 				(font
@@ -4058,7 +3875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm "
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 29.21 129.54 0)
 			(effects
 				(font
@@ -4168,72 +3985,6 @@
 			(project "project"
 				(path "/eaded386-8ef5-4822-a552-66b037180f01"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 215.9 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d5de339-917f-452d-a3a6-dc963f2fc94f")
-		(property "Reference" "J27"
-			(at 218.186 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 218.44 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 215.9 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "840ea2ce-b7c2-4aef-8289-d8e947b42dec")
-		)
-		(instances
-			(project "project"
-				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -5069,7 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm "
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 69.85 139.7 0)
 			(effects
 				(font
@@ -5175,72 +4926,6 @@
 			(project "project"
 				(path "/eaded386-8ef5-4822-a552-66b037180f01"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 215.9 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e032b13-fbdd-469e-9f76-781d6faf449b")
-		(property "Reference" "J26"
-			(at 218.186 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 218.44 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 215.9 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94f93a68-b38a-4dee-ba93-f20e48a40f9e")
-		)
-		(instances
-			(project "project"
-				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -5515,72 +5200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 215.9 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3497dbb-2198-49de-aa9a-754307d4b6b3")
-		(property "Reference" "J24"
-			(at 218.186 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 218.44 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 215.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "884a72ab-78a3-43cb-b63e-9b11a942430f")
-		)
-		(instances
-			(project "project"
-				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 82.55 149.86 270)
 		(unit 1)
@@ -5783,7 +5402,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 215.9 68.58 0)
+		(at 232.41 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5791,7 +5410,7 @@
 		(dnp no)
 		(uuid "c4140984-1bfd-48ad-9d50-e1c6ef121dfc")
 		(property "Reference" "J30"
-			(at 218.186 68.58 0)
+			(at 234.696 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5419,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 218.44 69.8499 0)
+			(at 234.95 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5428,7 @@
 			)
 		)
 		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 215.9 68.58 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 68.58 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5446,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 68.58 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,15 +5468,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 215.9 49.53 0)
+		(at 177.8 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de13fe1b-5cc8-4366-b3c3-1156676da3aa")
-		(property "Reference" "J23"
-			(at 218.186 49.53 0)
+		(uuid "c82550bf-b4b7-4209-90ea-757040df9bcc")
+		(property "Reference" "J17"
+			(at 180.086 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5485,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 218.44 50.7999 0)
+			(at 180.34 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5494,7 @@
 			)
 		)
 		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 215.9 49.53 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 49.53 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5512,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 49.53 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,12 +5521,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b58c6358-c3df-46c6-8447-f30f8239bf6b")
+			(uuid "a4f9aa1c-2afd-48f2-aa92-3e66ee7df295")
 		)
 		(instances
 			(project "project"
 				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J23")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -6178,6 +5797,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 195.58 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4fd6057-d2d1-407a-b5a8-f9fd39137fb9")
+		(property "Reference" "J19"
+			(at 197.866 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ba1ddf-c725-42a7-8455-c9fd80b5e965")
+		)
+		(instances
+			(project "project"
+				(path "/eaded386-8ef5-4822-a552-66b037180f01"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 72.39 24.13 0)
 		(unit 1)
@@ -6315,15 +6000,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 195.58 60.96 0)
+		(at 232.41 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f0f1d913-88ac-47b0-8744-571a471ab9a5")
-		(property "Reference" "J19"
-			(at 197.866 60.96 0)
+		(uuid "f251cd02-b8fb-4272-b58c-229f9d562829")
+		(property "Reference" "J23"
+			(at 234.696 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6017,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 198.12 62.2299 0)
+			(at 234.95 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6026,7 @@
 			)
 		)
 		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 195.58 60.96 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 60.96 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6044,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 60.96 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,12 +6053,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d64a5ac0-4337-44d9-ad07-2f96fa03657b")
+			(uuid "a4e0dd51-744f-49e1-a681-7b8ea80575b6")
 		)
 		(instances
 			(project "project"
 				(path "/eaded386-8ef5-4822-a552-66b037180f01"
-					(reference "J19")
+					(reference "J23")
 					(unit 1)
 				)
 			)

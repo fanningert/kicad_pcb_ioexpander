@@ -351,7 +351,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "19b5bd2a-cfc9-4032-9af6-b13cfcdf9098")
 	)
-	(model "${KIPRJMOD}/library/3D/SX1509QBIULTRT.stp"
+	(model "${KIPRJMOD}/library/SX1509QBIULTRT.stp"
 		(offset
 			(xyz 0 0 0)
 		)

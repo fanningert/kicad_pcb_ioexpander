@@ -12,3 +12,8 @@ Simple PCB based on SX1509 for expanding of IO ports via I²C. Castellated holes
 
 * Solder pads for I²C address
 * Solder pads for I²C Pull-Up Resistor
+
+
+## Alternatives
+
+* PCA9685
