@@ -2228,7 +2228,7 @@
 		(uuid "1e7cabfa-fcfe-41ff-9770-c59cf609b9a9")
 	)
 	(label "+3.3V"
-		(at 227.33 60.96 180)
+		(at 210.82 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2635,7 +2635,7 @@
 		(uuid "cd080054-6af1-489f-9c9e-5310ac5c6c21")
 	)
 	(label "GNDD"
-		(at 227.33 64.77 180)
+		(at 210.82 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2867,7 +2867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Level Shifting GPIO with LED Driver 28-Pin QFN-UT EP T/R"
+		(property "Description" "SX1509QBIULTRT"
 			(at 39.37 54.61 0)
 			(effects
 				(font
@@ -2888,16 +2888,6 @@
 		)
 		(property "Mouser Part Number" "947-SX1509QBIULTRT"
 			(at 71.12 536.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semtech/SX1509QBIULTRT?qs=rBWM4%252BvDhIf3%2FilU3NIYqw%3D%3D"
-			(at 71.12 636.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3017,7 @@
 		(at 177.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "161bdaea-3b94-4e5a-b9aa-929a6acb11cd")
@@ -3093,7 +3083,7 @@
 		(at 177.8 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b7773b3-36ef-430f-9cac-f44be787424a")
@@ -3266,7 +3256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 36.83 138.43 0)
 			(effects
 				(font
@@ -3295,7 +3285,7 @@
 		(at 195.58 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "30f880c8-7d48-4b85-a833-1322ed416b1c")
@@ -3428,7 +3418,7 @@
 		(at 215.9 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "36254a3c-94be-459b-8a2d-12dfb6915e9a")
@@ -3494,7 +3484,7 @@
 		(at 177.8 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "36ef9a9e-86ab-4121-a977-f8f65db07454")
@@ -3633,7 +3623,7 @@
 		(at 177.8 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a03bdb4-3e4d-414a-8c64-bdf9d706df4c")
@@ -3699,7 +3689,7 @@
 		(at 177.8 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "402070c8-b2cd-4171-8468-1f56f3073e80")
@@ -3878,7 +3868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -4014,7 +4004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, 10uF, 0402 SMD"
 			(at 83.82 30.48 0)
 			(effects
 				(font
@@ -4084,7 +4074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, 10uF, 0402 SMD"
 			(at 25.4 67.31 0)
 			(effects
 				(font
@@ -4113,7 +4103,7 @@
 		(at 177.8 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c5df108-360e-4416-a123-18e507abf970")
@@ -4179,7 +4169,7 @@
 		(at 177.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c7043ea-6875-467f-8d80-bfedf3ae8d7d")
@@ -4245,7 +4235,7 @@
 		(at 195.58 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e371338-837e-4965-b2cc-967d1b5c0f9c")
@@ -4350,7 +4340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -4379,7 +4369,7 @@
 		(at 215.9 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "84aa480a-b495-4d6a-8bb7-3c5a8784ca20")
@@ -4577,7 +4567,7 @@
 		(at 195.58 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9561aeca-9c66-463b-9ee1-5e01f848e6dd")
@@ -4782,7 +4772,7 @@
 		(at 195.58 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d66277b-77df-4834-9d9e-233a01b9add8")
@@ -4848,7 +4838,7 @@
 		(at 195.58 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "aac2d724-a7dd-4983-9a7c-8d628c63be42")
@@ -4955,7 +4945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, 10uF, 0402 SMD"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -5050,7 +5040,7 @@
 		(at 195.58 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "aef2f842-5a39-448b-9267-0f842ecd4874")
@@ -5222,7 +5212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 67.31 27.94 0)
 			(effects
 				(font
@@ -5248,15 +5238,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 232.41 64.77 0)
+		(at 215.9 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4140984-1bfd-48ad-9d50-e1c6ef121dfc")
 		(property "Reference" "J30"
-			(at 234.696 64.77 0)
+			(at 218.186 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5255,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 234.95 66.0399 0)
+			(at 218.44 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5264,7 @@
 			)
 		)
 		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 232.41 64.77 0)
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +5273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 64.77 0)
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5282,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.41 64.77 0)
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5307,7 @@
 		(at 177.8 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c82550bf-b4b7-4209-90ea-757040df9bcc")
@@ -5383,7 +5373,7 @@
 		(at 177.8 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "de3a3d41-ca7b-4d7a-8605-e6f43c4a07ef")
@@ -5449,7 +5439,7 @@
 		(at 195.58 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "df3c9302-33c4-4a40-bf25-72e961ff7b40")
@@ -5515,7 +5505,7 @@
 		(at 195.58 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e1a69fc4-123e-47df-8298-57638fb98677")
@@ -5581,7 +5571,7 @@
 		(at 195.58 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e4f3904d-4606-4e7d-8a34-7717d4f4cbfe")
@@ -5647,7 +5637,7 @@
 		(at 195.58 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e4fd6057-d2d1-407a-b5a8-f9fd39137fb9")
@@ -5820,7 +5810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 85.09 128.27 0)
 			(effects
 				(font
@@ -5846,15 +5836,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 232.41 60.96 0)
+		(at 215.9 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f251cd02-b8fb-4272-b58c-229f9d562829")
 		(property "Reference" "J23"
-			(at 234.696 60.96 0)
+			(at 218.186 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5853,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 234.95 62.2299 0)
+			(at 218.44 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +5862,7 @@
 			)
 		)
 		(property "Footprint" "Castellated_Holes:Castellated_Hole02"
-			(at 232.41 60.96 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 60.96 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5880,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.41 60.96 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 21.59 138.43 0)
 			(effects
 				(font
@@ -5985,7 +5975,7 @@
 		(at 177.8 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d16088-8cd9-42a4-ab5d-3401e32dd6d1")

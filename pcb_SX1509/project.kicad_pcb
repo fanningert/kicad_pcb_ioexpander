@@ -245,6 +245,7 @@
 		(path "/1b7773b3-36ef-430f-9cac-f44be787424a")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -329,7 +330,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -541,7 +542,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1051,6 +1052,7 @@
 		(path "/9d66277b-77df-4834-9d9e-233a01b9add8")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -1135,7 +1137,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1366,6 +1368,7 @@
 		(path "/aef2f842-5a39-448b-9267-0f842ecd4874")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -1469,6 +1472,7 @@
 		(path "/e1a69fc4-123e-47df-8298-57638fb98677")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -1572,6 +1576,7 @@
 		(path "/9561aeca-9c66-463b-9ee1-5e01f848e6dd")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -1675,6 +1680,7 @@
 		(path "/7c5df108-360e-4416-a123-18e507abf970")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -1778,6 +1784,7 @@
 		(path "/c4140984-1bfd-48ad-9d50-e1c6ef121dfc")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.5 1.5)
@@ -1881,6 +1888,7 @@
 		(path "/36ef9a9e-86ab-4121-a977-f8f65db07454")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -1984,6 +1992,7 @@
 		(path "/c82550bf-b4b7-4209-90ea-757040df9bcc")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -2087,6 +2096,7 @@
 		(path "/e4fd6057-d2d1-407a-b5a8-f9fd39137fb9")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -2190,6 +2200,7 @@
 		(path "/30f880c8-7d48-4b85-a833-1322ed416b1c")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -2293,6 +2304,7 @@
 		(path "/de3a3d41-ca7b-4d7a-8605-e6f43c4a07ef")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -2377,7 +2389,7 @@
 				)
 			)
 		)
-		(property "Description" "Voltage Level Shifting GPIO with LED Driver 28-Pin QFN-UT EP T/R"
+		(property "Description" "SX1509QBIULTRT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2408,19 +2420,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77fc7707-423e-466a-b179-e7ec38a02a0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semtech/SX1509QBIULTRT?qs=rBWM4%252BvDhIf3%2FilU3NIYqw%3D%3D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24257eb8-e195-4a08-baf3-0f2519b1c839")
 			(effects
 				(font
 					(size 1 1)
@@ -2916,6 +2915,7 @@
 		(path "/7c7043ea-6875-467f-8d80-bfedf3ae8d7d")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -3000,7 +3000,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, 10uF, 0402 SMD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3212,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, 10uF, 0402 SMD"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3636,7 +3636,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3848,7 +3848,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, 10uF, 0402 SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4079,6 +4079,7 @@
 		(path "/aac2d724-a7dd-4983-9a7c-8d628c63be42")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -4182,6 +4183,7 @@
 		(path "/e4f3904d-4606-4e7d-8a34-7717d4f4cbfe")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -4285,6 +4287,7 @@
 		(path "/84aa480a-b495-4d6a-8bb7-3c5a8784ca20")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.5 1.5)
@@ -4388,6 +4391,7 @@
 		(path "/36254a3c-94be-459b-8a2d-12dfb6915e9a")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.5 1.5)
@@ -4491,6 +4495,7 @@
 		(path "/402070c8-b2cd-4171-8468-1f56f3073e80")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -4594,6 +4599,7 @@
 		(path "/3a03bdb4-3e4d-414a-8c64-bdf9d706df4c")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -4697,6 +4703,7 @@
 		(path "/7e371338-837e-4965-b2cc-967d1b5c0f9c")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -4800,6 +4807,7 @@
 		(path "/f251cd02-b8fb-4272-b58c-229f9d562829")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.5 1.5)
@@ -5163,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 10.0k, 0402 SMD"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5394,6 +5402,7 @@
 		(path "/161bdaea-3b94-4e5a-b9aa-929a6acb11cd")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
@@ -5497,6 +5506,7 @@
 		(path "/df3c9302-33c4-4a40-bf25-72e961ff7b40")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.5 1.5)
@@ -5600,6 +5610,7 @@
 		(path "/f5d16088-8cd9-42a4-ab5d-3401e32dd6d1")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.5 1.5)
