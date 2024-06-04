@@ -1317,7 +1317,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at -0.508 -1.016 270)
+			(at -0.508 -1.016 -90)
 			(layer "F.SilkS")
 			(uuid "c701504e-42ca-4d83-86ab-fd95e6811ca4")
 			(effects
@@ -1329,7 +1329,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd72fc6a-ec59-43cc-95f6-efe682352de5")
@@ -1482,7 +1482,7 @@
 			(uuid "9b0a7daf-1546-4726-8c17-44e02b8223c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6f29debf-ad74-424f-b8da-d5e7f30b3396")
 			(effects
@@ -3328,7 +3328,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -0.508 1.016 270)
+			(at -0.508 1.016 -90)
 			(layer "F.SilkS")
 			(uuid "03e739db-791e-4a91-9213-4a3b468feee0")
 			(effects
@@ -3340,7 +3340,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8156e734-f9f0-4fe5-a39f-a6bba5838802")
@@ -3493,7 +3493,7 @@
 			(uuid "0e64eacf-953b-4714-b929-aa4a222432cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2245ac54-d8c5-4e24-a373-f158ddef7e48")
 			(effects
@@ -5295,7 +5295,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at -0.508 1.016 270)
+			(at -0.508 1.016 -90)
 			(layer "F.SilkS")
 			(uuid "4f543e82-8c84-4b18-8a84-3a9e4827f869")
 			(effects
@@ -5307,7 +5307,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c711e39-85f7-4f3b-8174-451f8f2ff7e2")
@@ -5460,7 +5460,7 @@
 			(uuid "0eb215be-ed93-4511-bca4-ad9d027b20a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "744ac121-7f7e-46f1-906f-92718efc3ea8")
 			(effects
@@ -6820,6 +6820,7 @@
 				(justify mirror)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_rect
 			(start 6.6 6.2)
 			(end 6.2 6.6)
