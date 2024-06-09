@@ -19,6 +19,6 @@ jobs:
     strategy:
       matrix:
         target: [SX1509, PCA9685]
-    uses: ./.github/workflows/template_kitbot_build.yml
+    uses: ./.github/workflows/template_kitbot_build.yaml
     with:
       pcb-dir-prefix: ${{ matrix.target }}
