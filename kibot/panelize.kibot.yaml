@@ -28,10 +28,10 @@ outputs:
           width: '5mm'
           space: '3mm'
         fiducials:
-          type: '4fid'
+          type: '3fid'
           paste: true
         tooling:
-          type: '4hole'
+          type: '3hole'
           paste: true
           soldermaskmargin: '1.3mm'
       - tabs:
