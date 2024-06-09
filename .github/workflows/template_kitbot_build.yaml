@@ -57,7 +57,8 @@ jobs:
     needs: [ERC, DRC]
     steps:
     - uses: actions/checkout@v4
-    - uses: INTI-CMNB/KiBot@v2_k8
+    - name: "Generate files of single PCB"
+      uses: INTI-CMNB/KiBot@v2_k8
       with:
         config: kibot/base.kibot.yaml
         dir: pcb_${{ inputs.pcb-dir-prefix }}
@@ -65,12 +66,31 @@ jobs:
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
         verbose: 0
         skip: erc,drc
-    - uses: INTI-CMNB/KiBot@v2_k8
+    - name: "Generate production files of single PCB"
+      uses: INTI-CMNB/KiBot@v2_k8
       with:
         config: kibot/production.kibot.yaml
         dir: pcb_${{ inputs.pcb-dir-prefix }}/production
         schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
+        verbose: 0
+        skip: erc,drc
+    - name: "Panelize PCB"
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        config: kibot/panelize.kibot.yaml
+        dir: pcb_${{ inputs.pcb-dir-prefix }}/panelize
+        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
+        board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
+        verbose: 0
+        skip: erc,drc
+    - name: "Generate production files of panelized PCB"
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        config: kibot/production.kibot.yaml
+        dir: pcb_${{ inputs.pcb-dir-prefix }}/panelize_production
+        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project.kicad_sch'
+        board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project.kicad_pcb'
         verbose: 0
         skip: erc,drc
     - name: upload results

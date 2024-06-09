@@ -1,0 +1,50 @@
+kibot:
+  version: 1
+  imported_global_has_less_priority: true
+
+preflight:
+  erc: false
+  drc: false
+  set_text_variables:
+    # The revision will be the short git hash
+    # We use ${git_hash} for the REV field in the worksheet (frame)
+    - name: 'git_hash'
+      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+      before: 'Git:'
+    # Coherent date and time for the schematic and PCB
+    # This will be the time stamp of the files generation, not the commit times
+    # We use `${date}` for the time field in the worksheet (frame)
+    - name: 'date'
+      command: 'date --iso-8601=minutes'
+      
+outputs:
+  - name: 'Panelize PCB'
+    dir: .
+    options:
+      configs:
+        framing:
+          type: 'frame'
+          width: '5mm'
+          space: '3mm'
+#        fiducials:
+#          type: '4fid'
+#          paste: true
+#        tooling:
+#          type: '4hole'
+#          paste: true
+#          soldermaskmargin: '1.3mm'
+        tabs:
+          type: 'annotation'
+        layout:
+          type: 'grid'
+          cols: 4
+          rows: 4
+          space: '2mm'
+          hbackbone: '3mm'
+          vbackbone: '3mm'
+        cuts:
+          types: 'vcuts'
+          clearance: '1.5mm'
+        post:
+          millradius: '1mm'
+          
