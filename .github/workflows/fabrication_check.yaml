@@ -15,14 +15,10 @@ on:
 #      - 'pcb_*/**.*' 
 
 jobs:
-  Build_SX1509:
-    call-workflow-passing-data:
-      uses: ./.github/workflows/template_kitbot_build.yml
-      with:
-        pcb-dir-prefix: SX1509
-
-  Build_PCA9685:
-    call-workflow-passing-data:
-      uses: ./.github/workflows/template_kitbot_build.yml
-      with:
-        pcb-dir-prefix: PCA9685
+  call-workflow-passing-data:
+    strategy:
+      matrix:
+        target: [SX1509, PCA9685]
+    uses: ./.github/workflows/template_kitbot_build.yml
+    with:
+      pcb-dir-prefix: ${{ matrix.target }}
