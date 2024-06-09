@@ -8,7 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(comment 4 "AISLER Project ID: UBKWEFRY")
+		(title "Breakout board: IO-Expander based on PCA9685")
+		(date "2024-06-09")
+		(rev "1")
+		(company "Thomas Fanninger")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -14829,6 +14832,19 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Rev.: ${REVISION}"
+		(at 112.014 103.632 0)
+		(layer "B.SilkS")
+		(uuid "9df238a4-e0c5-465d-950e-c326abe41078")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
