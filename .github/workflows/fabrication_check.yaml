@@ -17,6 +17,7 @@ on:
 jobs:
   call-workflow-passing-data:
     strategy:
+      max-parallel: 1
       matrix:
         target: [SX1509, PCA9685]
     uses: ./.github/workflows/template_kitbot_build.yaml
