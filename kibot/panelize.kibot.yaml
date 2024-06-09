@@ -30,14 +30,14 @@ outputs:
         fiducials:
           type: '3fid'
           paste: true
-          hoffset: 1
-          voffset: 1
+          hoffset: 2
+          voffset: 2
         tooling:
           type: '3hole'
           paste: true
           soldermaskmargin: '1.3mm'
-          hoffset: 1.5
-          voffset: 1.5
+          hoffset: 4
+          voffset: 4
       - tabs:
           type: 'annotation'
       - layout:
