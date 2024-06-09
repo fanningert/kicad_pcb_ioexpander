@@ -27,17 +27,24 @@ outputs:
           type: 'frame'
           width: '5mm'
           space: '3mm'
+          mintotalheight: '100mm'
+          mintotalwidth: '100mm'
+          maxtotalheight: '300mm'
+          maxtotalwidth: '300mm'
         fiducials:
           type: '3fid'
           paste: true
-          hoffset: 2
-          voffset: 2
+          hoffset: '5mm'
+          voffset: '2.5mm'
+          coppersize: '2mm'
+          opening: '1mm'
         tooling:
           type: '3hole'
           paste: true
           soldermaskmargin: '1.3mm'
-          hoffset: 4
-          voffset: 4
+          hoffset: '2.5mm'
+          voffset: '2.5mm'
+          size: '1.5mm'
       - tabs:
           type: 'annotation'
       - layout:
@@ -52,4 +59,9 @@ outputs:
           clearance: '1.5mm'
       - post:
           millradius: '1mm'
+      - copperfill:
+          type: 'hatched'
+          clearance: '2mm'
+          spacing: '0.5mm'
+          width: '0.5mm'
           
