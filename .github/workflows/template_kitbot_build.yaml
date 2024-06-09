@@ -98,7 +98,7 @@ jobs:
       with:
         config: kibot/production.kibot.yaml
         dir: pcb_${{ inputs.pcb-dir-prefix }}/production_panelize
-        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project-panel.kicad_sch'
+        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project-panel.kicad_pcb'
         verbose: 0
         skip: erc,drc
