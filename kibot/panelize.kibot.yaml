@@ -23,7 +23,7 @@ outputs:
     dir: .
     options:
       configs:
-        framing:
+      - framing:
           type: 'frame'
           width: '5mm'
           space: '3mm'
@@ -34,18 +34,18 @@ outputs:
 #          type: '4hole'
 #          paste: true
 #          soldermaskmargin: '1.3mm'
-        tabs:
+      - tabs:
           type: 'annotation'
-        layout:
+      - layout:
           type: 'grid'
           cols: 4
           rows: 4
           space: '2mm'
           hbackbone: '3mm'
           vbackbone: '3mm'
-        cuts:
+      - cuts:
           type: 'vcuts'
           clearance: '1.5mm'
-        post:
+      - post:
           millradius: '1mm'
           
