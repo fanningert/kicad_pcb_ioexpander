@@ -84,15 +84,15 @@ jobs:
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
         verbose: 0
         skip: erc,drc
-    - name: "Generate production files of panelized PCB"
-      uses: INTI-CMNB/KiBot@v2_k8
-      with:
-        config: kibot/production.kibot.yaml
-        dir: pcb_${{ inputs.pcb-dir-prefix }}/panelize_production
-        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project.kicad_sch'
-        board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project.kicad_pcb'
-        verbose: 0
-        skip: erc,drc
+#    - name: "Generate production files of panelized PCB"
+#      uses: INTI-CMNB/KiBot@v2_k8
+#      with:
+#        config: kibot/production.kibot.yaml
+#        dir: pcb_${{ inputs.pcb-dir-prefix }}/panelize_production
+#        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project.kicad_sch'
+#        board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project.kicad_pcb'
+#        verbose: 0
+#        skip: erc,drc
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
