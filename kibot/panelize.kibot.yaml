@@ -43,7 +43,7 @@ outputs:
           hbackbone: '3mm'
           vbackbone: '3mm'
         cuts:
-          types: 'vcuts'
+          type: 'vcuts'
           clearance: '1.5mm'
         post:
           millradius: '1mm'
