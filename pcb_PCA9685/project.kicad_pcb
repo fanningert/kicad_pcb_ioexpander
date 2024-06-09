@@ -244,6 +244,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d056927-8f6a-4f38-9808-c6522db352bb")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6361586a-fb36-4100-83be-438bd4f0128b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1b7773b3-36ef-430f-9cac-f44be787424a")
 		(sheetname "Stammblatt")
@@ -345,6 +371,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "778745da-fd14-4860-ab3e-ae97ef517781")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "503c95c2-56b9-4d6a-b0a8-7f547380fff6")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -552,6 +604,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a46abadf-c758-4b49-946b-1013158a0db1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdcb7684-7f4f-41f3-8346-2c896393041c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9d66277b-77df-4834-9d9e-233a01b9add8")
 		(sheetname "Stammblatt")
@@ -656,6 +734,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e132ce0-1ecf-4ec8-b797-058852f3b359")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b61220-9594-4b57-9c6a-c19f38d827f1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/aef2f842-5a39-448b-9267-0f842ecd4874")
 		(sheetname "Stammblatt")
@@ -757,6 +861,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88737fc5-dd57-4dc8-9d71-8454ac4a1710")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3c1f127-c25c-40ff-9eeb-7fbd8766e406")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -975,6 +1105,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b17d49f-8664-4d94-b1c4-f560c00906fa")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90acf241-174d-48ba-a453-ecfe68537f06")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e1a69fc4-123e-47df-8298-57638fb98677")
 		(sheetname "Stammblatt")
@@ -1076,6 +1232,32 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e76cf14-3446-4b02-a36b-288d8e4961dc")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2375db5-f787-4b71-8c89-f80f31282419")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1181,6 +1363,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99fc6d81-69bc-480c-9428-12cd43af05ae")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea340d94-4eb9-4997-916b-a39af6b4f95e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1385,6 +1593,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74c951f9-21cb-4888-a917-640cfa768a6c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "092f4091-4200-43cd-b78f-576df8bddea1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1603,6 +1837,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6080c900-c0e5-4600-8f28-d7ce54e194bd")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2de96edc-394e-4c44-92b9-b24b97cfb4b8")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7c5df108-360e-4416-a123-18e507abf970")
 		(sheetname "Stammblatt")
@@ -1704,6 +1964,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a71396-5e11-4318-ac0b-3bc5b9cd753e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37152467-b0b3-44e7-b315-a3df38724a40")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2039,6 +2325,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22d54d19-d4fb-46b3-ac88-74759bb95b94")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62f893c5-d4fc-456e-a0ee-2a021a1ccd4f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c4140984-1bfd-48ad-9d50-e1c6ef121dfc")
 		(sheetname "Stammblatt")
@@ -2140,6 +2452,32 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da63b30c-059e-498b-8a5d-848b24b1b865")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a1266c0-bd94-4f35-93e5-200b70f96e80")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2247,6 +2585,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fd95dc3-4107-4a84-b580-7f57b09a8c3f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57d01d8e-5500-4df9-ad07-3c0f57c55125")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c93da9ca-fd0c-4b79-a68c-cca3365f961d")
 		(sheetname "Stammblatt")
@@ -2351,6 +2715,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63a8a750-15c3-4aa0-aeba-1ca496e4edce")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dda88bd-38b8-43af-8b3a-a71f00fc0f02")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5653b1f5-01d5-43a5-b38f-541ad8aa8998")
 		(sheetname "Stammblatt")
@@ -2452,6 +2842,32 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71de9ff7-51cf-41f4-bd66-c75f5f6868dc")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18ec3691-2775-4860-b2ce-f331d5023a40")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2617,6 +3033,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77d08f3f-a25b-46f1-8859-bd5d41602b59")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "AISLER_MPN" "PCA9685PW,118"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "536a961d-252f-4cff-a66f-c8ef70bb8a60")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" " C2678753"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53f18e39-35cc-40bd-865a-c608d10bf8f4")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3112,6 +3554,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df3bcc35-a161-4b81-b16e-44dc7a4ec898")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d6a5742-6be0-42fb-a5f8-ed37dfd9bc14")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f0e74839-8738-41e8-9fd8-4076c1595b82")
 		(sheetname "Stammblatt")
@@ -3327,6 +3795,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "319effb1-76a5-4785-8d0f-cd941e09c14a")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fbc71c7-a6b2-4577-bb99-8c4bb0ed1d9a")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/ca806922-58e9-4081-a1ec-c0c1d8178e73")
 		(sheetname "Stammblatt")
@@ -3528,6 +4022,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a981932c-d42f-44e9-8321-ea084a332ab9")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76e6cf28-0fe4-456c-b3f2-c8d5d8168ea4")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3746,6 +4266,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac608468-c6af-4393-8970-3fa1dbd7eb6e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4805ba2e-1406-4ac6-9d45-eb7fc71dfb2b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d2e131ae-a74e-4e30-b173-bc5b7363c8d7")
 		(sheetname "Stammblatt")
@@ -3961,6 +4507,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efb86179-e34e-4664-bc1f-6ef56ccfe950")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a35e54bb-0ac1-4b01-bc43-ef899278b017")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/de3a3d41-ca7b-4d7a-8605-e6f43c4a07ef")
 		(sheetname "Stammblatt")
@@ -4062,6 +4634,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1d273e9-8cc0-4f5f-ada6-0700df5e10d5")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8c49a72-a11b-4560-9a17-5edbcfe921a8")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4386,6 +4984,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aad6310-c95b-46d9-8e6e-0984edf262aa")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f99fa1d-ea7a-495c-b60f-22c2b7145380")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/cf9440ee-6c44-492b-83b2-9bb18ed1f0ff")
 		(sheetname "Stammblatt")
@@ -4587,6 +5211,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e08abf4-5fc7-45d9-9b84-5db30fbb746f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb430112-fa47-4541-b83f-8a0ac71563f0")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4805,6 +5455,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc4b55a-557f-4a87-9765-ecceadcb82a4")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c16852bb-4fee-46c5-9250-a1e638b41a3c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/25fde64e-8167-46bf-80f9-a662cef846bf")
 		(sheetname "Stammblatt")
@@ -4909,6 +5585,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "597434a7-28c4-4e10-8784-c1b761a2189b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ad95e67-bd99-4408-b319-034ab3895d24")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7c7043ea-6875-467f-8d80-bfedf3ae8d7d")
 		(sheetname "Stammblatt")
@@ -5010,6 +5712,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "175c8210-a485-4442-b6c9-3db0bc34dd76")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "204c8589-6ae9-4cc7-8845-5b1b669341bb")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5217,6 +5945,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23e0f982-4954-4fe9-b6ed-e38e0cf9fa73")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4920c592-7363-4583-87a8-779e570010a1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/aac2d724-a7dd-4983-9a7c-8d628c63be42")
 		(sheetname "Stammblatt")
@@ -5318,6 +6072,32 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24cc74e9-5839-41a2-b6c2-938b1bbbae87")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2ca105f-5f34-4325-9ece-1751e99d3ce9")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5425,6 +6205,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee488f43-5874-4db2-b595-baa266c37557")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84e27c02-7eb6-404a-8cdd-07ef2dab53dd")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84aa480a-b495-4d6a-8bb7-3c5a8784ca20")
 		(sheetname "Stammblatt")
@@ -5529,6 +6335,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd31915-b18e-4834-b71b-1bb6618fbd7d")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed936dca-93a9-4a7c-9645-528dce52b543")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/36254a3c-94be-459b-8a2d-12dfb6915e9a")
 		(sheetname "Stammblatt")
@@ -5630,6 +6462,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0f9c6cd-9dbc-4021-bd0f-60b61ba96bae")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3783495-f8ca-4a2c-b17c-d18a3e054afe")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5848,6 +6706,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79235fc6-9c1c-4725-adb8-273085087587")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25c74da4-3584-463f-a07c-55f3e0e8f057")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1c1f1323-308b-4f3a-ae1b-79674927faa5")
 		(sheetname "Stammblatt")
@@ -5949,6 +6833,32 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7b6ab99-fb05-4e90-a6b0-a153ac9f2318")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2093dba3-6b9c-4ed9-ae38-4fd0bcbc8a97")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6056,6 +6966,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aeb29787-6258-49ce-85ce-64402d8b1228")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4ea9f60-2e71-4806-92d3-2e9c6823e8f3")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3a03bdb4-3e4d-414a-8c64-bdf9d706df4c")
 		(sheetname "Stammblatt")
@@ -6100,7 +7036,7 @@
 			(at 0 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7661956b-d427-4c5d-b087-8a246c93292e")
+			(uuid "2d189b68-2899-4067-a5dc-8026a2efb7e2")
 			(effects
 				(font
 					(size 1 1)
@@ -6111,7 +7047,7 @@
 		(property "Value" "Tab"
 			(at -3 -1 90)
 			(layer "Dwgs.User")
-			(uuid "7e3f059a-1128-4b87-af02-f51896554fc5")
+			(uuid "0dc60f0c-a3a4-4166-954e-efa464f64d68")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -6164,7 +7100,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "fb9df6cf-2f0e-49dd-83ce-24c93fcd0c96")
+			(uuid "08b66faf-3934-4a0f-8257-8a805a030664")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -6174,7 +7110,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "0038f435-9343-41aa-a71d-fc898a9f1dc7")
+			(uuid "a8eb7264-576b-4469-8c4a-fefe4bbf3850")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -6184,7 +7120,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6ad93159-2f94-481c-9a99-d9614f39f99c")
+			(uuid "a257157a-088b-4276-9275-21d737d548b7")
 		)
 		(fp_line
 			(start 0.25 1)
@@ -6194,12 +7130,12 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "538d54f6-b22a-4efa-b576-7b8533e3582c")
+			(uuid "ba29a925-2c85-4774-87c6-1544cdebefd6")
 		)
 		(fp_text user "KIKIT: width: 2.5mm"
 			(at -5.5 0 0)
 			(layer "Dwgs.User")
-			(uuid "15ba4115-1291-4a4d-b704-6a01badaad52")
+			(uuid "8408481e-7768-433f-8af0-b2b5406a04c2")
 			(effects
 				(font
 					(size 1 1)
@@ -6274,6 +7210,32 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b45423ff-4038-4a70-ac6a-d3456395a720")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e1366f7-c277-4134-8530-7483d9147c2e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6381,6 +7343,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d29defcd-ea83-4870-888a-2c5343cf242c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2e7dccf-1e99-461e-9f13-fb605bf2ae3d")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/df3c9302-33c4-4a40-bf25-72e961ff7b40")
 		(sheetname "Stammblatt")
@@ -6482,6 +7470,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Capacitor, 10uF, 0402 SMD"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "424b58b9-2a3a-4208-997d-d29b04ea50fd")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e88223e-bc7d-4c63-85bb-d8c18d497e4f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6700,6 +7714,32 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8977f559-843a-4876-91eb-a44bd3a98342")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81c0385d-81d1-404d-a268-c52607673453")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f5d16088-8cd9-42a4-ab5d-3401e32dd6d1")
 		(sheetname "Stammblatt")
@@ -6801,6 +7841,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" "Resistor, 10k, 0402 SMD"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef609122-1a67-4e8c-bc12-23adf08dc729")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cb0c053-848c-45ba-8d5c-0a3d47e339b4")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6959,7 +8025,7 @@
 			(at 0 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5aa734dc-7d40-48c6-8735-80c9f02d60c3")
+			(uuid "709e7573-5f79-4af3-b3a8-8f749dbcc6dd")
 			(effects
 				(font
 					(size 1 1)
@@ -6970,7 +8036,7 @@
 		(property "Value" "Tab"
 			(at -3 -1 90)
 			(layer "Dwgs.User")
-			(uuid "7fcab9c6-3be1-4dc9-8a3f-bb73cf05400e")
+			(uuid "4e97c969-090a-4411-bcf8-72393605a21f")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -7023,7 +8089,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "221eac15-4862-442c-8b70-0d7d9e186744")
+			(uuid "31347023-ba10-445c-a127-472639d7bc81")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -7033,7 +8099,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "80420926-29db-4f91-b8c2-acb316650544")
+			(uuid "2e70c771-1849-43e0-848d-682839fa193a")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -7043,7 +8109,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "0440ebac-4b86-47d9-8f54-5f697b1fee71")
+			(uuid "73eed41c-6aab-4c86-8a84-072a452f7377")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -7053,12 +8119,12 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "06bb31cf-0495-4853-bca9-91c250190eb2")
+			(uuid "68e41319-c3b2-4c8e-82ec-09c28ac474e2")
 		)
 		(fp_text user "KIKIT: width: 2.5mm"
 			(at -5.5 0 0)
 			(layer "Dwgs.User")
-			(uuid "455c4356-18e2-4922-b469-6957e9746d51")
+			(uuid "bd183e07-e13e-4e75-ad77-c7b9b66a4514")
 			(effects
 				(font
 					(size 1 1)
@@ -7133,6 +8199,32 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "AISLER_MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec1b10d4-3ca0-4f45-a9f6-65d7519c3e78")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd7a65e9-3230-4fe8-90ec-f151aeeb5ac8")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)

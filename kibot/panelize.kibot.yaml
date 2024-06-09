@@ -27,18 +27,18 @@ outputs:
           type: 'frame'
           width: '5mm'
           space: '3mm'
-#        fiducials:
-#          type: '4fid'
-#          paste: true
-#        tooling:
-#          type: '4hole'
-#          paste: true
-#          soldermaskmargin: '1.3mm'
+        fiducials:
+          type: '4fid'
+          paste: true
+        tooling:
+          type: '4hole'
+          paste: true
+          soldermaskmargin: '1.3mm'
       - tabs:
           type: 'annotation'
       - layout:
           type: 'grid'
-          cols: 4
+          cols: 5
           rows: 4
           space: '2mm'
           hbackbone: '3mm'
