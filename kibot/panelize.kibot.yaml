@@ -58,7 +58,7 @@ outputs:
           type: 'mousebites'
           drill: '0.5mm'
           spacing: '1mm'
-          offset: '0.2mm'
+          offset: '0mm'
           prolong: '0.5mm'
       - post:
           millradius: '1mm'
