@@ -102,6 +102,9 @@ jobs:
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project-panel.kicad_pcb'
         verbose: 0
         skip: erc,drc
+    - name: Prepare files
+      run: |
+        sudo chown -R runner:runner .
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
