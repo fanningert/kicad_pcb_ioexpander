@@ -6613,7 +6613,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" " C2678753"
+		(property "LCSC#" "C2678753"
 			(at 41.91 48.26 0)
 			(effects
 				(font

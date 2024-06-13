@@ -143,9 +143,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../../../test/")
 		)
 	)
 	(net 0 "")
@@ -187,7 +187,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1134ad4c-ccbe-4000-82be-0dd7ee3fbd20")
+			(uuid "6bdd730e-1e3a-4cbb-966a-9b73571e4336")
 			(effects
 				(font
 					(size 1 1)
@@ -200,7 +200,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57ca461f-7b0a-4818-b36a-1b29927f1895")
+			(uuid "e93f1cfe-89e8-4673-9d3a-12b325ceb76c")
 			(effects
 				(font
 					(size 1 1)
@@ -213,7 +213,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8ec1847-d391-41ea-b174-c24b33697ecd")
+			(uuid "cdf773b4-ea3e-4951-8be1-63ef89ebb606")
 			(effects
 				(font
 					(size 1 1)
@@ -226,7 +226,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0976fbc-f80e-4008-92e1-74e2450333fa")
+			(uuid "a48da78b-b65b-44ab-b24b-0a065818651c")
 			(effects
 				(font
 					(size 1 1)
@@ -239,7 +239,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02ae515a-2375-44ea-976f-dfa28ca10763")
+			(uuid "b2c56552-ddec-4dc2-8aa6-0c4aa26b250e")
 			(effects
 				(font
 					(size 1 1)
@@ -280,9 +280,9 @@
 		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 0.9398 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 0.4699 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -291,12 +291,14 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "4affd5f1-be3f-4eb2-b81f-a2439c6d27d6")
+			(uuid "f222d18e-b5e8-4b98-b1fc-49c18abeca1a")
 		)
 		(pad "1" thru_hole roundrect
 			(at 1.5 0)
-			(size 1.5 1.5)
-			(drill 1)
+			(size 1.615 1.5)
+			(drill 1
+				(offset -0.0575 0)
+			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -305,7 +307,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "bb6bb992-fa76-4df6-ad28-01f8960f1408")
+			(uuid "f92ddbd7-5bf5-4952-bb08-a4dd2ff32730")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -3056,7 +3058,7 @@
 				)
 			)
 		)
-		(property "LCSC#" " C2678753"
+		(property "LCSC#" "C2678753"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
