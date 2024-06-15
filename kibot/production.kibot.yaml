@@ -2,6 +2,9 @@ kibot:
   version: 1
   imported_global_has_less_priority: true
 
+global:
+  field_lcsc_part: 'LCSC#'
+
 preflight:
   erc: false
   drc: false

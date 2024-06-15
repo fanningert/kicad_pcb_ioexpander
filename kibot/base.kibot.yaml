@@ -12,6 +12,7 @@ global:
   restore_project: true
   # We will use a value externally formatted
   time_reformat: false
+  field_lcsc_part: 'LCSC#'
 
 preflight:
   erc: true
@@ -190,12 +191,12 @@ outputs:
       map:
         type: 'pdf'
 
-  - name: gerber_drills
-    comment: "Gerber drill files"
-    type: gerb_drill
-    dir: Drill
-    options:
-      use_aux_axis_as_origin: false
+ # - name: gerber_drills
+ #   comment: "Gerber drill files"
+ #   type: gerb_drill
+ #   dir: Drill
+ #   options:
+ #     use_aux_axis_as_origin: false
 
   - name: 'position'
     comment: "Pick and place file"
