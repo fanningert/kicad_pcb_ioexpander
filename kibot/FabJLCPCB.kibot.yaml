@@ -32,34 +32,7 @@ groups:
     outputs:
       - _JLCPCB_fab@_KIBOT_IMPORT_ID@
       - _JLCPCB_assembly@_KIBOT_IMPORT_ID@
-      
-outputs:
-  - name: _JLCPCB_gerbers@_KIBOT_IMPORT_ID@
-    comment: Gerbers compatible with JLCPCB
-    type: gerber
-    dir: @_KIBOT_MANF_DIR@
-    options: &gerber_options
-      exclude_edge_layer: true
-      exclude_pads_from_silkscreen: true
-      plot_sheet_reference: false
-      plot_footprint_refs: @_KIBOT_PLOT_FOOTPRINT_REFS@
-      plot_footprint_values: @_KIBOT_PLOT_FOOTPRINT_VALUES@
-      force_plot_invisible_refs_vals: false
-      tent_vias: true
-      use_protel_extensions: true
-      create_gerber_job_file: false
-      disable_aperture_macros: true
-      gerber_precision: 4.6
-      use_gerber_x2_attributes: false
-      use_gerber_net_attributes: false
-      line_width: 0.1
-      subtract_mask_from_silk: true
-      inner_extension_pattern: '.g%n'
-    layers:
-      @_KIBOT_GERBER_LAYERS@
-      @_KIBOT_F_PASTE@
-      @_KIBOT_B_PASTE@
-      
+  
 outputs:
   - name: _JLCPCB_gerbers@_KIBOT_IMPORT_ID@
     comment: Gerbers compatible with JLCPCB
@@ -87,7 +60,6 @@ outputs:
       @_KIBOT_F_PASTE@
       @_KIBOT_B_PASTE@
      
-
   - name: _JLCPCB_drill@_KIBOT_IMPORT_ID@
     comment: Drill files compatible with JLCPCB
     type: excellon
