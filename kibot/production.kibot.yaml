@@ -22,7 +22,7 @@ preflight:
 
 import:
 #  - file: JLCPCB_stencil_with_THT
-   - file: FabJLCPCB.kibot.yaml
+  - file: FabJLCPCB.kibot.yaml
   - file: PCBWay_stencil
   - file: Elecrow_stencil
   - file: FusionPCB_stencil
