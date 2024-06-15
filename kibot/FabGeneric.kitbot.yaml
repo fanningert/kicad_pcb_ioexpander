@@ -75,7 +75,6 @@ outputs:
     dir: @_KIBOT_MANF_DIR@
     run_by_default: @_KIBOT_POS_ENABLED@
     options:
-      pre_transform: @_KIBOT_POS_PRE_TRANSFORM@
       dnf_filter: @_KIBOT_POS_DNF_FILTER@
       output: '%f_cpl_jlc.%x'
       format: CSV
@@ -177,7 +176,6 @@ definitions:
   _KIBOT_IMPORT_DIR: 'Generic'
   _KIBOT_MANF_DIR: '@_KIBOT_IMPORT_DIR@'
   _KIBOT_MANF_DIR_COMP: '@_KIBOT_IMPORT_DIR@'
-  _KIBOT_POS_PRE_TRANSFORM: _rot_footprint_Generic
   _KIBOT_POS_DNF_FILTER: remove_extra
   _KIBOT_POS_ENABLED: true
   _KIBOT_BOM_ENABLED: true
