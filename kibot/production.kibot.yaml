@@ -23,7 +23,7 @@ preflight:
 import:
   - file: FabGeneric.kitbot.yaml
   - file: FabJLCPCB.kibot.yaml
-  - file: PCBWay_stencil
+  - file: FabPCBWay.yaml
   - file: Elecrow_stencil
   - file: FusionPCB_stencil
   - file: P-Ban_stencil
