@@ -73,7 +73,7 @@ jobs:
         dir: pcb_${{ inputs.pcb-dir-prefix }}/production
         schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
-        verbose: 0
+        verbose: 3
         skip: erc,drc
     - name: "Panelize PCB"
       uses: INTI-CMNB/KiBot@v2_k8
