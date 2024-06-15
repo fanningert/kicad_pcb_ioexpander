@@ -149,9 +149,32 @@ outputs:
       use_gerber_net_attributes: true
 
     layers:
-      @_KIBOT_GERBER_LAYERS@
-      @_KIBOT_F_PASTE@
-      @_KIBOT_B_PASTE@
+      - layer: F.Cu
+        suffix: F_Cu
+      - layer: In1.Cu
+        suffix: In1_Cu
+      - layer: In2.Cu
+        suffix: In2_Cu
+      - layer: B.Cu
+        suffix: B_Cu
+      - layer: F.Paste
+        suffix: F_Paste
+      - layer: B.Paste
+        suffix: B_Paste
+      - layer: F.SilkS
+        suffix: F_SilkScreen
+      - layer: B.SilkS
+        suffix: B_SilkScreen
+      - layer: F.Mask
+        suffix: F_Mask
+      - layer: B.Mask
+        suffix: B_Mask
+      - layer: Edge.Cuts
+        suffix: Edge_Cuts
+      - layer: F.Fab
+        suffix: F_Fab
+      - layer: B.Fab
+        suffix: B_Fab
 
   - name: excellon_drill
     comment: "Excellon drill files"
