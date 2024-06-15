@@ -151,7 +151,7 @@ definitions:
   _KIBOT_BOM_ENABLED: true
   _KIBOT_PLOT_FOOTPRINT_REFS: true
   _KIBOT_PLOT_FOOTPRINT_VALUES: false
-  _KIBOT_COMPRESS_MOVE: false
+  _KIBOT_COMPRESS_MOVE: true
   _KIBOT_GERBER_LAYERS: |
       - copper
             - F.SilkS
