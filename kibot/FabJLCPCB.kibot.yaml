@@ -3,7 +3,7 @@ kibot:
   version: 1
 
 filters:
-  - name: _only_jlc_parts
+  - name: only_jlc_parts
     comment: 'Only parts with JLC (LCSC) code'
     type: generic
     include_only:
@@ -12,7 +12,7 @@ filters:
 
   # Used to remove extra stuff added by KiKit for the panel
   # If you need to keep them just specify a different filter matching only the thing you want
-  - name: _remove_extra
+  - name: remove_extra
     comment: 'Remove KiKit auxiliary stuff'
     type: generic
     exclude_any:
@@ -107,7 +107,7 @@ outputs:
     run_by_default: @_KIBOT_BOM_ENABLED@
     options:
       output: '%f_%i_jlc.%x'
-      exclude_filter: '_only_jlc_parts'
+      exclude_filter: 'only_jlc_parts'
       ref_separator: ','
       columns:
         - field: Value
@@ -146,7 +146,7 @@ definitions:
   _KIBOT_MANF_DIR: '@_KIBOT_IMPORT_DIR@'
   _KIBOT_MANF_DIR_COMP: '@_KIBOT_IMPORT_DIR@'
   _KIBOT_POS_PRE_TRANSFORM: _rot_footprint_jlcpcb
-  _KIBOT_POS_DNF_FILTER: _remove_extra
+  _KIBOT_POS_DNF_FILTER: remove_extra
   _KIBOT_POS_ENABLED: true
   _KIBOT_BOM_ENABLED: true
   _KIBOT_PLOT_FOOTPRINT_REFS: true
