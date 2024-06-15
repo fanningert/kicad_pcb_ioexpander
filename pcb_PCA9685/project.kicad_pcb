@@ -187,7 +187,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6bdd730e-1e3a-4cbb-966a-9b73571e4336")
+			(uuid "367d1633-69a9-4160-8fbc-58418cde50c7")
 			(effects
 				(font
 					(size 1 1)
@@ -200,7 +200,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e93f1cfe-89e8-4673-9d3a-12b325ceb76c")
+			(uuid "96a2fe17-5025-43b1-bda0-0bf1c7f08741")
 			(effects
 				(font
 					(size 1 1)
@@ -213,7 +213,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdf773b4-ea3e-4951-8be1-63ef89ebb606")
+			(uuid "2eaf4416-4bd8-4069-967c-b5999de3c47f")
 			(effects
 				(font
 					(size 1 1)
@@ -226,7 +226,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a48da78b-b65b-44ab-b24b-0a065818651c")
+			(uuid "4e2ab892-a138-4e9b-b836-cbbc35071f3e")
 			(effects
 				(font
 					(size 1 1)
@@ -239,7 +239,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2c56552-ddec-4dc2-8aa6-0c4aa26b250e")
+			(uuid "70da91e9-8718-432f-903c-64acc09985a9")
 			(effects
 				(font
 					(size 1 1)
@@ -277,12 +277,11 @@
 		(path "/1b7773b3-36ef-430f-9cac-f44be787424a")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 0.9398 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.4699 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -291,23 +290,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "f222d18e-b5e8-4b98-b1fc-49c18abeca1a")
+			(uuid "be88e786-9d93-42e7-80c2-2fee5b86cf3c")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
-			(size 1.615 1.5)
-			(drill 1
-				(offset -0.0575 0)
-			)
+			(size 1.5 1.5)
+			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 25 "/IO0")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "f92ddbd7-5bf5-4952-bb08-a4dd2ff32730")
+			(uuid "7192c707-9e26-4966-a0df-74bbf5fa1a07")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -549,7 +545,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "da87b5f9-88f2-4489-8022-a3d565186123")
+			(uuid "fc5e3025-7ba2-4db4-8101-b6aa680be234")
 			(effects
 				(font
 					(size 1 1)
@@ -562,7 +558,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc3ebc60-782a-4829-9c64-70809e943601")
+			(uuid "72b88361-3b54-4419-8313-aa2539269a15")
 			(effects
 				(font
 					(size 1 1)
@@ -575,7 +571,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcabd5d0-17a0-4bda-add0-e88fd82f1b13")
+			(uuid "bfb01cb5-89b1-4fce-9fee-3c4d0a4f2034")
 			(effects
 				(font
 					(size 1 1)
@@ -588,7 +584,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f41eb305-2237-4a1a-a6ce-d5c174186e89")
+			(uuid "2331fd39-cdb6-4c34-b79f-0ca246e953b0")
 			(effects
 				(font
 					(size 1 1)
@@ -601,7 +597,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01b9ebd8-b27e-4da0-b548-6c557f278564")
+			(uuid "aa155853-effa-49f0-91cf-a3130b2c1cf4")
 			(effects
 				(font
 					(size 1 1)
@@ -639,12 +635,11 @@
 		(path "/9d66277b-77df-4834-9d9e-233a01b9add8")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -653,21 +648,140 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "91a926b0-2056-4484-a005-f3a9e465b206")
+			(uuid "3aebc557-d212-46d1-b0ed-2e9c9e8b063c")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 17 "/IO8")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "d9095dfd-1d1c-4446-934a-8706279f7ef7")
+			(uuid "dc946f1a-b91a-471b-8ffb-058e4bc80b52")
+		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "191cdab7-45ab-437d-a1f5-cab274ebad28")
+		(at 113.538 104.394 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T4"
+			(at 0 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a204cce3-33de-40b1-a297-c86f09441b68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -2.75 -1 90)
+			(layer "Dwgs.User")
+			(uuid "92bdfa6a-ff5f-479d-9935-88074478e9c4")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf7298a4-0485-4cbf-bddf-6355f8cf37d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90c57faf-a777-4efa-b8b2-f93f784fb774")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7935c6af-07fa-4d4e-8685-18c382ef8cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b345daea-c3dc-44b7-9147-0c7e92b33507")
+		(sheetname "Stammblatt")
+		(sheetfile "project.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "55a23fdb-d3e3-4c4b-8534-b03654d92b8a")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -2.75 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ea1a5185-a1f6-4fe9-8c42-ad4b3eaa0c07")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "eb32c395-5872-4be4-8b14-ac1c3f19b71b")
+		)
+		(fp_line
+			(start 0.25 1)
+			(end 0.25 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a2bab2b9-2a86-46a1-9980-d2a64ced1aa6")
+		)
+		(fp_text user "KIKIT: width: 2.5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "e325a520-e5c7-4240-a95d-5fd9fe4f2968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -679,7 +793,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "95447593-ad91-4eb9-8ad4-1a2c87e33b3c")
+			(uuid "320bd87d-4800-4cc6-a352-66ebd2bf61fe")
 			(effects
 				(font
 					(size 1 1)
@@ -692,7 +806,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f969cdc2-4239-4c79-b82b-4aa820397696")
+			(uuid "5a494a22-6d46-4da6-91c2-7a47b8b47a7c")
 			(effects
 				(font
 					(size 1 1)
@@ -705,7 +819,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77593531-6ddb-4c8c-b9db-f37ca28b1f92")
+			(uuid "4941fb8c-7626-43b1-8788-0a259d1e4a60")
 			(effects
 				(font
 					(size 1 1)
@@ -718,7 +832,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9a0aae0-ce79-4782-8630-f409b611e071")
+			(uuid "10a7b55b-c392-4648-be05-3ce4ab4c77fa")
 			(effects
 				(font
 					(size 1 1)
@@ -731,7 +845,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7a46147-ebf3-4d3b-8376-d881d1978bfb")
+			(uuid "82319bf1-b258-46c9-b745-c6628d0d45e5")
 			(effects
 				(font
 					(size 1 1)
@@ -769,12 +883,11 @@
 		(path "/aef2f842-5a39-448b-9267-0f842ecd4874")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -783,21 +896,140 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "0250549a-4918-45bf-ab37-28d0a4e8624a")
+			(uuid "141d2d00-7972-4830-baae-037f3cb8eb45")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 18 "/IO12")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "1e9c8611-8bdb-46c9-af5f-11fafb88a51a")
+			(uuid "2e30423e-c02a-440a-ac36-2c08c9b2760a")
+		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "1af4fc8b-52b2-41bc-b24c-557b305675da")
+		(at 97.79 77.978 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T1"
+			(at 0 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50b3c196-f0b7-4c8a-9cdf-7c8ae05eeb53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -2.75 -1 90)
+			(layer "Dwgs.User")
+			(uuid "a9cd681c-afdf-4ad7-b600-af39f4eb6090")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b10bb0f4-e476-4b77-948d-332fa0376415")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e3a5905-de9d-45ac-b09b-1d5f203419d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76432d23-75c3-4484-b07e-86298ada4715")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e40866bb-3608-4020-b2f7-a99a2ed2b5b8")
+		(sheetname "Stammblatt")
+		(sheetfile "project.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 0.25 1)
+			(end 0.25 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e55cb1d5-77a8-48c6-91aa-3c7fba8ebd44")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "086a4342-44c1-4d4d-95e8-45bbddcf0a98")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -2.75 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9c194e22-18c3-4a28-b793-927f7c480533")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "319395e9-c67f-4e8d-b137-a2ba76f76694")
+		)
+		(fp_text user "KIKIT: width: 2.5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "05198007-716d-4786-8f88-72507567b0fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
@@ -1050,7 +1282,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "61ec5b3c-a410-4a90-afc3-00e18863e278")
+			(uuid "2bd55534-325f-4f2b-827d-6cef9facaf37")
 			(effects
 				(font
 					(size 1 1)
@@ -1063,7 +1295,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "481e767f-6f06-4f53-adb7-832fc410eff9")
+			(uuid "786d728e-f3b3-4678-baf1-59dd24613080")
 			(effects
 				(font
 					(size 1 1)
@@ -1076,7 +1308,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54301510-7238-4370-89ff-171732fa2be9")
+			(uuid "ea8bfda6-1559-4199-8bf6-394db2ba4c74")
 			(effects
 				(font
 					(size 1 1)
@@ -1089,7 +1321,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f002c99-571c-4216-ae20-c6d68bd2cf74")
+			(uuid "a40587a7-3237-48d8-81f2-db62e31da178")
 			(effects
 				(font
 					(size 1 1)
@@ -1102,7 +1334,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44893cf0-25b5-4975-8e85-09094eabd2c1")
+			(uuid "c3108057-fb99-475b-a082-3ddb1d00adde")
 			(effects
 				(font
 					(size 1 1)
@@ -1140,12 +1372,11 @@
 		(path "/e1a69fc4-123e-47df-8298-57638fb98677")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -1154,21 +1385,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "852d3b0d-8530-4fd7-b643-24bf1fc8a441")
+			(uuid "c0daacb8-d01c-4b84-8c90-674d37fe70eb")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 10 "/IO11")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "941032ed-a863-4cd5-8b41-a464a5364d8d")
+			(uuid "0a651c68-02ef-466e-8027-d623145d8ab1")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -1180,7 +1410,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "95122bb6-d9c9-4c13-8c23-e94f27c684f0")
+			(uuid "318732ec-6401-438f-bd40-e80a3b4a26fd")
 			(effects
 				(font
 					(size 1 1)
@@ -1193,7 +1423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b27ab483-ea83-43f3-85c6-218dea2f1da4")
+			(uuid "3efc58ac-5a1a-48db-906a-52fe0f1eff88")
 			(effects
 				(font
 					(size 1 1)
@@ -1206,7 +1436,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3f679ca-3846-4380-a2b2-e5f7436bb039")
+			(uuid "4a951d3e-f78c-4041-8362-ed21aee81db3")
 			(effects
 				(font
 					(size 1 1)
@@ -1219,7 +1449,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebfbd715-e382-42f9-99df-be132edde63c")
+			(uuid "5024bc8f-1347-4e5c-9198-5b5da6959226")
 			(effects
 				(font
 					(size 1 1)
@@ -1232,7 +1462,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6d1e916-edb9-406d-9c7d-c67b2230e0b8")
+			(uuid "04dfcfe4-1ec2-4e5c-9b9d-cb878d0989de")
 			(effects
 				(font
 					(size 1 1)
@@ -1270,12 +1500,11 @@
 		(path "/9561aeca-9c66-463b-9ee1-5e01f848e6dd")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -1284,21 +1513,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "a991ffb1-f950-4706-b9fa-713b32924d7a")
+			(uuid "9dbc59b3-ebba-42f7-8324-d5f5a6a89d84")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 16 "/IO10")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "071ad7b1-d3c5-4320-bb68-6a992fdde275")
+			(uuid "99191d4d-9140-4120-8b50-34dec76cf726")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -1782,7 +2010,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6d029da0-e41f-4ef1-8e68-803b207f04d0")
+			(uuid "d5fcecca-bd29-4851-8efb-18b84182b4de")
 			(effects
 				(font
 					(size 1 1)
@@ -1795,7 +2023,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69e46bb4-d939-485f-9736-3575fe2ff286")
+			(uuid "e56eec1e-52f0-4604-a18d-2613cdcb8024")
 			(effects
 				(font
 					(size 1 1)
@@ -1808,7 +2036,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79d448b4-2ee2-4372-b9e1-e9717ed95735")
+			(uuid "804393d6-de1e-4468-9eff-8205094f149c")
 			(effects
 				(font
 					(size 1 1)
@@ -1821,7 +2049,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "738368fb-6668-4f7d-bc0b-ff080d51d296")
+			(uuid "2bea7eb7-4276-4a13-a35a-fa9f5cda8a05")
 			(effects
 				(font
 					(size 1 1)
@@ -1834,7 +2062,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6741341f-405b-4929-8b28-363e5a5cc1e2")
+			(uuid "194a0f6b-137f-4bb9-9c64-35ca50cb6d6d")
 			(effects
 				(font
 					(size 1 1)
@@ -1872,12 +2100,11 @@
 		(path "/7c5df108-360e-4416-a123-18e507abf970")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -1886,21 +2113,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "9284379d-1923-45a0-943d-f01f443789a4")
+			(uuid "7f923d31-e936-4de4-b044-acbd668eee48")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 5 "/IO4")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "852d9a72-33d0-4057-ac79-ac3f12497a61")
+			(uuid "4fdf9cc8-c306-456f-b131-cc2f80ef69d8")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
@@ -2144,123 +2370,6 @@
 			)
 		)
 	)
-	(footprint "kikit:Tab"
-		(layer "F.Cu")
-		(uuid "64c4abd9-5de2-44e7-bf93-8c621afd345a")
-		(at 113.538 104.394 90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at 0 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7661956b-d427-4c5d-b087-8a246c93292e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "7e3f059a-1128-4b87-af02-f51896554fc5")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3a7d262-dd46-4ecf-95a1-d76d7843612e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b264ce0d-77c5-40c8-b946-f937f2dbb3ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7882ece4-4cea-4227-a556-36a4e128938a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fb9df6cf-2f0e-49dd-83ce-24c93fcd0c96")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -2.75 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0038f435-9343-41aa-a71d-fc898a9f1dc7")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6ad93159-2f94-481c-9a99-d9614f39f99c")
-		)
-		(fp_line
-			(start 0.25 1)
-			(end 0.25 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "538d54f6-b22a-4efa-b576-7b8533e3582c")
-		)
-		(fp_text user "KIKIT: width: 2.5mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "15ba4115-1291-4a4d-b704-6a01badaad52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
 		(layer "F.Cu")
 		(uuid "656e108b-4efc-470f-a139-af7e6797d76c")
@@ -2270,7 +2379,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "48531663-18e2-4197-b258-9f77488bd4eb")
+			(uuid "be6882f3-66b2-4d6c-a388-d8b73039f732")
 			(effects
 				(font
 					(size 1 1)
@@ -2283,7 +2392,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deeea41d-5375-4560-a6bc-22ca0c7d7e37")
+			(uuid "9bb90fe0-ec10-4877-94a0-66fc21237c67")
 			(effects
 				(font
 					(size 1 1)
@@ -2296,7 +2405,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1962af50-7bae-4510-bd84-cde861d7b379")
+			(uuid "27d32050-70bd-44b2-a335-f0319482917e")
 			(effects
 				(font
 					(size 1 1)
@@ -2309,7 +2418,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0e3e076-1be8-418d-b1a5-ede0aad6c594")
+			(uuid "405a3951-4b7a-4760-9447-91f891a961b5")
 			(effects
 				(font
 					(size 1 1)
@@ -2322,7 +2431,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0c2165c-bb67-49ce-ad71-2e2261f14c5e")
+			(uuid "b44935d4-b1f9-4373-8ba9-b375266d97f3")
 			(effects
 				(font
 					(size 1 1)
@@ -2360,12 +2469,11 @@
 		(path "/c4140984-1bfd-48ad-9d50-e1c6ef121dfc")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -2374,21 +2482,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "baf14740-03b2-49d7-9204-5ddcb0b2f486")
+			(uuid "f8fb4a51-9107-457c-ae48-944788fd1516")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 11 "GNDD")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "ebd4e034-4aa2-4320-b4cb-87fc45d17ea3")
+			(uuid "cacf8ff4-360d-440f-ae9d-6e5c079277e7")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -2400,7 +2507,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aafa9eeb-d254-427f-8428-609edffb47cb")
+			(uuid "7062a1f4-47bd-4de4-9ce9-afba982db82a")
 			(effects
 				(font
 					(size 1 1)
@@ -2413,7 +2520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4836819f-0dea-4949-8882-721c2cdd64f5")
+			(uuid "91246e17-f30c-489a-89e1-9bdcd14968c9")
 			(effects
 				(font
 					(size 1 1)
@@ -2426,7 +2533,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e8d7f5f-9189-4c5f-9c1a-6356948a3a8a")
+			(uuid "67b638ba-9f9f-4f72-9838-843fdb5d6bc9")
 			(effects
 				(font
 					(size 1 1)
@@ -2439,7 +2546,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98f0d2c8-0678-46d0-af7a-ff677e3761e5")
+			(uuid "b7df20be-f33d-47de-a543-b1cbf022a459")
 			(effects
 				(font
 					(size 1 1)
@@ -2452,7 +2559,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd2c7bac-840c-4b57-bf33-93fbe41f7fca")
+			(uuid "1bfb0e15-4afa-47f2-b291-a3722849ffe2")
 			(effects
 				(font
 					(size 1 1)
@@ -2490,12 +2597,11 @@
 		(path "/36ef9a9e-86ab-4121-a977-f8f65db07454")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -2504,21 +2610,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "30d59d58-7c52-43d8-8c57-cd4c23960965")
+			(uuid "5cc85128-9052-43e1-8be5-9908e707982a")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 23 "/IO6")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "f067d397-370d-4967-8690-babde2ab20fd")
+			(uuid "df3cffbc-ab1e-4149-8cf6-f0ddea358ba0")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -2530,7 +2635,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6125cffd-026b-4a79-8cfd-d84ff5e37fd7")
+			(uuid "cd22ec5d-1cdb-45ba-a6f1-14ec989c8d57")
 			(effects
 				(font
 					(size 1 1)
@@ -2543,7 +2648,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2688c792-0dcb-4ab9-809b-e348ff95ba76")
+			(uuid "29784e19-a158-455c-81c3-3f6b60b4c677")
 			(effects
 				(font
 					(size 1 1)
@@ -2556,7 +2661,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e30b22a5-60d4-4463-bbb6-e6ef03464fb7")
+			(uuid "77bae4d8-6c29-44da-b51e-aab4a1e6a858")
 			(effects
 				(font
 					(size 1 1)
@@ -2569,7 +2674,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e05a3804-9ec3-41bf-8f1c-c3f5254d42bf")
+			(uuid "812ac857-f111-4be3-b03f-02c66f22ef1f")
 			(effects
 				(font
 					(size 1 1)
@@ -2582,7 +2687,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2bb0bc8-7b38-4971-855d-773e61dbb043")
+			(uuid "6331fa4f-ae29-4565-b122-979957c100c7")
 			(effects
 				(font
 					(size 1 1)
@@ -2620,12 +2725,11 @@
 		(path "/c93da9ca-fd0c-4b79-a68c-cca3365f961d")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -2634,21 +2738,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "98fe7541-989a-4e30-98a5-1721e61e17e4")
+			(uuid "19a78729-ca5e-45c3-af05-1707c1e89138")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 20 "+3.3V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "f40d97ba-8f1e-4bf6-bb1f-44077655e159")
+			(uuid "56a6dcb8-35b2-4dca-82be-a5c0e2cb544e")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -2660,7 +2763,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b30ce30d-4b90-4a17-9d4f-80de76d501be")
+			(uuid "351608de-7103-426c-8dfd-68d949e93b73")
 			(effects
 				(font
 					(size 1 1)
@@ -2673,7 +2776,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41c8a552-30c1-4bfb-b24b-2aad68d6aecb")
+			(uuid "f0030554-e5f2-4663-91c8-608697f092d5")
 			(effects
 				(font
 					(size 1 1)
@@ -2686,7 +2789,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25d3ce7e-91ee-4b67-8505-8d13ac91e2cf")
+			(uuid "db11e1a3-95ac-4333-8324-30e491b99639")
 			(effects
 				(font
 					(size 1 1)
@@ -2699,7 +2802,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e1241f5-6b68-46e6-a991-382804762b53")
+			(uuid "7d04661b-efa7-4387-8614-3abbf373ab7c")
 			(effects
 				(font
 					(size 1 1)
@@ -2712,7 +2815,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "405d64e5-473c-4040-ba16-657b8e90bab7")
+			(uuid "de2158dc-3d1c-4bd0-9d34-17886ec0c228")
 			(effects
 				(font
 					(size 1 1)
@@ -2750,12 +2853,11 @@
 		(path "/5653b1f5-01d5-43a5-b38f-541ad8aa8998")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -2764,21 +2866,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "da1cf322-e24c-4d8e-9e7d-7e5e53d854c8")
+			(uuid "26ad92c5-5d62-49d7-8a81-fb51f0cb4991")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 20 "+3.3V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "c46cd61d-29ea-43dd-8ce0-45939af172e5")
+			(uuid "3258bc31-c9ba-4b29-adb6-171784b06f75")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -2790,7 +2891,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f180a148-01d8-4596-ad11-34f1855e451e")
+			(uuid "4ec326c4-d09d-419a-be73-dc2dd271635c")
 			(effects
 				(font
 					(size 1 1)
@@ -2803,7 +2904,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4da2c585-6049-458f-a755-b79071cbb070")
+			(uuid "838a3609-12d3-43b8-8722-a226ee754eef")
 			(effects
 				(font
 					(size 1 1)
@@ -2816,7 +2917,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b52369f-0a32-4565-8a66-4999d30e4cf4")
+			(uuid "628a78fc-2d28-4388-b10e-ada32df61f76")
 			(effects
 				(font
 					(size 1 1)
@@ -2829,7 +2930,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "825c29fa-ddde-4347-94b9-3d153ae16d17")
+			(uuid "dd2c0ce6-e0c2-483a-8623-435960bd63bd")
 			(effects
 				(font
 					(size 1 1)
@@ -2842,7 +2943,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "477a9631-8411-456d-8649-88b43a1f7060")
+			(uuid "4d1141c5-fb36-4d3b-ae13-b9abd2464ec9")
 			(effects
 				(font
 					(size 1 1)
@@ -2880,12 +2981,11 @@
 		(path "/30f880c8-7d48-4b85-a833-1322ed416b1c")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -2894,21 +2994,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "4fcb5697-2b00-43c8-a8c5-e921f869af41")
+			(uuid "a8361bb5-327d-4bc2-b091-6d95011fddfc")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 3 "/IO14")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "cc7c2fcd-8582-462c-9111-180d99db4a24")
+			(uuid "fbaf6ed6-d575-40d9-a9a8-5d3ff649bde5")
 		)
 	)
 	(footprint "library:SOP65P640X110-28N"
@@ -4443,6 +4542,126 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "7b7d995e-b9bb-4f05-8944-c53bb31000f8")
+		(at 97.79 104.394 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T3"
+			(at 0 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "265d5b62-c2a9-4e4b-bf8c-5991560a6749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -2.75 -1 90)
+			(layer "Dwgs.User")
+			(uuid "81b64640-10ba-4db1-9de0-f8184644e004")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ab4762-f40c-4d6a-bdd7-07544bdea416")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d38c9f1-e454-4124-b983-2d133eeca712")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85aa7a5d-1faf-4c19-b492-b66ac1d4d8b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/819e9548-18cd-4771-acc7-5aec8a793815")
+		(sheetname "Stammblatt")
+		(sheetfile "project.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1ce7a190-097a-4e39-a809-ac53255f0400")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -2.75 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7e6354ca-fdde-4c39-8268-91c6ce6b5d17")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7296b350-838e-4053-ae95-20dc6a935088")
+		)
+		(fp_line
+			(start 0.25 1)
+			(end 0.25 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7f2df532-16f1-4f4f-848b-33c56aaffb4e")
+		)
+		(fp_text user "KIKIT: width: 2.5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "58c4cd2f-28fc-4170-83ce-4528b4d5a314")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
 		(layer "F.Cu")
 		(uuid "7df3718c-6a6e-468e-91c3-36774d028842")
@@ -4452,7 +4671,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f6ecec1-1149-43ca-b039-52532edceda5")
+			(uuid "78e49407-20e1-4454-8673-833d737cd963")
 			(effects
 				(font
 					(size 1 1)
@@ -4465,7 +4684,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d26eeddd-53ac-4984-971f-b9470873f505")
+			(uuid "698fe100-afa1-4875-8fb9-4c6dc8f93b84")
 			(effects
 				(font
 					(size 1 1)
@@ -4478,7 +4697,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3857443f-deb0-46e9-bcd5-f91ecdf8f6f8")
+			(uuid "bdbc9eae-0f67-4f5c-aee5-7910b1c9d4dc")
 			(effects
 				(font
 					(size 1 1)
@@ -4491,7 +4710,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1e2a83f-0e4b-4c5d-b4d7-06040f9d8fe2")
+			(uuid "e36875c9-5ef2-4801-a4d2-3d1125d4fe67")
 			(effects
 				(font
 					(size 1 1)
@@ -4504,7 +4723,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60ea8a91-c434-4365-9b9c-f23c2a5322f0")
+			(uuid "56e9096e-123d-40fd-b446-a2806968090a")
 			(effects
 				(font
 					(size 1 1)
@@ -4542,12 +4761,11 @@
 		(path "/de3a3d41-ca7b-4d7a-8605-e6f43c4a07ef")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -4556,21 +4774,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "67f9b733-340a-4dd5-8642-34aaa466c67e")
+			(uuid "08e10423-c2b3-4904-a5da-c38bd2ff16b9")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 11 "GNDD")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "bda574b3-6bd7-4845-a787-b6ff5ee4d965")
+			(uuid "395c3de1-4d02-4e7c-9dc7-5b4a38ff050a")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -4801,123 +5018,6 @@
 				)
 			)
 			(uuid "174291c3-6360-4d33-aa6b-112ee1403981")
-		)
-	)
-	(footprint "kikit:Tab"
-		(layer "F.Cu")
-		(uuid "80c61645-97cd-4943-a822-18271842aa68")
-		(at 113.538 77.978 -90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at 0 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5aa734dc-7d40-48c6-8735-80c9f02d60c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "7fcab9c6-3be1-4dc9-8a3f-bb73cf05400e")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3a7d262-dd46-4ecf-95a1-d76d7843612e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b264ce0d-77c5-40c8-b946-f937f2dbb3ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7882ece4-4cea-4227-a556-36a4e128938a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_line
-			(start 0.25 1)
-			(end 0.25 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "221eac15-4862-442c-8b70-0d7d9e186744")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "80420926-29db-4f91-b8c2-acb316650544")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -2.75 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0440ebac-4b86-47d9-8f54-5f697b1fee71")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "06bb31cf-0495-4853-bca9-91c250190eb2")
-		)
-		(fp_text user "KIKIT: width: 2.5mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "455c4356-18e2-4922-b469-6957e9746d51")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -5400,7 +5500,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5e82fec7-1dfc-4e01-a727-36a940100987")
+			(uuid "36499bfe-37c9-424e-af28-473fb17d6763")
 			(effects
 				(font
 					(size 1 1)
@@ -5413,7 +5513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "effc9fcb-e50d-4af2-bd05-74da346a1a49")
+			(uuid "1c5f4055-c47b-4c9c-b299-c84cd59ddee2")
 			(effects
 				(font
 					(size 1 1)
@@ -5426,7 +5526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b56518e2-2246-44d9-b139-307e8d8f417f")
+			(uuid "4a9718c0-e278-4372-8776-db61aebc807e")
 			(effects
 				(font
 					(size 1 1)
@@ -5439,7 +5539,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1dbbe125-04b2-4536-aafa-7eb82ae575e0")
+			(uuid "8b25d35c-a5b3-4c34-bf92-238fbb5821ff")
 			(effects
 				(font
 					(size 1 1)
@@ -5452,7 +5552,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ec0e0c1-276b-4bd3-b919-16b70201ebea")
+			(uuid "5e544fa4-5800-4d4a-b8e3-3c5e59b0b725")
 			(effects
 				(font
 					(size 1 1)
@@ -5490,12 +5590,11 @@
 		(path "/25fde64e-8167-46bf-80f9-a662cef846bf")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -5504,21 +5603,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "0d13b2a0-6a2d-40f6-a7f8-e2803df485a4")
+			(uuid "5f033988-df2a-43e9-8bfb-03ef5fb15793")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 11 "GNDD")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "e2115841-ae4a-45b9-b6d2-6cea3dcb9cfd")
+			(uuid "a79ee428-e122-4b9f-aba4-9146d7ffd06a")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -5530,7 +5628,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "11cf841f-dbfc-4423-ae5a-1f6e3baa5d1f")
+			(uuid "cd40c4ba-9a50-4992-88d3-16c6a2695397")
 			(effects
 				(font
 					(size 1 1)
@@ -5543,7 +5641,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f435fa5a-df43-4946-9830-b9579b2d132a")
+			(uuid "de423208-0f7e-4ed8-b8b1-ed093924eb98")
 			(effects
 				(font
 					(size 1 1)
@@ -5556,7 +5654,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7b1e02c-8a1b-4d4f-adfb-37e2570a2f21")
+			(uuid "e31a03e6-5f65-4e60-86bb-ebb5d5d66635")
 			(effects
 				(font
 					(size 1 1)
@@ -5569,7 +5667,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbcca78e-4887-477f-9c4d-919d0a6112d1")
+			(uuid "57787024-2cf4-4855-9afc-00adbdbe7297")
 			(effects
 				(font
 					(size 1 1)
@@ -5582,7 +5680,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71dfccbe-578d-4f4a-868b-efd5183a079d")
+			(uuid "753cfde8-727e-4808-ac48-294870b5de92")
 			(effects
 				(font
 					(size 1 1)
@@ -5620,12 +5718,11 @@
 		(path "/7c7043ea-6875-467f-8d80-bfedf3ae8d7d")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -5634,21 +5731,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "bdad1497-27ff-44bc-9e43-b5401c77da50")
+			(uuid "60a16e76-2dcf-45fb-87cd-de6bc6030a94")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 22 "/IO3")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "854fdaff-36f5-44ec-924e-390a0176f85a")
+			(uuid "007c86fe-2c11-4b1d-8e82-ca4e507b0658")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -5890,7 +5986,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "606be50a-d576-405b-ad38-b8836a1cf8dd")
+			(uuid "8cc3690b-5977-4c53-8fe1-40ccb231b91e")
 			(effects
 				(font
 					(size 1 1)
@@ -5903,7 +5999,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4bc93fdb-d8a5-4ff8-90a4-a6922a188e39")
+			(uuid "211fc0a4-70d5-4264-833b-4b50da95903e")
 			(effects
 				(font
 					(size 1 1)
@@ -5916,7 +6012,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "257a24b9-2741-417e-aaf9-715bbea4e7eb")
+			(uuid "702263d6-04fb-4ad2-9063-7b718e3ac6ad")
 			(effects
 				(font
 					(size 1 1)
@@ -5929,7 +6025,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "489a50af-997d-4978-b84d-236df6f36c81")
+			(uuid "a02ebed1-cb75-4aa4-8847-815ebb94b444")
 			(effects
 				(font
 					(size 1 1)
@@ -5942,7 +6038,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d93ac4d2-7c25-47dc-b399-fcccda3d53a6")
+			(uuid "f725c42e-fe3a-4d0c-850a-e05942e2ac5e")
 			(effects
 				(font
 					(size 1 1)
@@ -5980,12 +6076,11 @@
 		(path "/aac2d724-a7dd-4983-9a7c-8d628c63be42")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -5994,21 +6089,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "00443ac6-e85a-4a45-8f5f-02e739009da0")
+			(uuid "8b6098dc-18bb-4baf-b3b1-05ff8354169a")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 6 "/IO15")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "b37a946b-5613-4966-aa75-c05d885a8b06")
+			(uuid "0c3d92aa-4e97-4b11-b748-959384318c88")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -6020,7 +6114,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9f74206f-9647-4ffe-902a-c61e4acfe072")
+			(uuid "deee2c83-e04e-49b5-a2c5-6df29bc66c2d")
 			(effects
 				(font
 					(size 1 1)
@@ -6033,7 +6127,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16feed67-9371-4d9e-9cba-736ae85ea8eb")
+			(uuid "397e97bb-396f-42b5-b310-163401b829b4")
 			(effects
 				(font
 					(size 1 1)
@@ -6046,7 +6140,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9238b32-cfc6-4b7e-ba29-828ba881158a")
+			(uuid "c8d6e20a-fc95-418e-803d-a244dedb9542")
 			(effects
 				(font
 					(size 1 1)
@@ -6059,7 +6153,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e006304-be59-4d8a-bd68-457cc6de51c0")
+			(uuid "dd94e07c-6cc9-4543-b9f2-52b17f88bc66")
 			(effects
 				(font
 					(size 1 1)
@@ -6072,7 +6166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff81d364-09b3-42c2-af1b-104b8b9d9cde")
+			(uuid "7f657bda-31c6-43b6-b3b2-3d6cb4e9c921")
 			(effects
 				(font
 					(size 1 1)
@@ -6110,12 +6204,11 @@
 		(path "/e4f3904d-4606-4e7d-8a34-7717d4f4cbfe")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -6124,21 +6217,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "33687287-f64e-4844-8404-5544ec119de1")
+			(uuid "a63c0a78-4177-441b-ad26-6df07d09bc94")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 15 "/IO13")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "49037f46-cacc-44a1-a23f-c69af599d974")
+			(uuid "e0174fc9-5742-4796-93f1-530b164d7d4d")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -6150,7 +6242,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "eb99d8dd-491a-4b11-a778-22cbbc97fd21")
+			(uuid "398503d6-a777-44d0-ba67-749617817b74")
 			(effects
 				(font
 					(size 1 1)
@@ -6163,7 +6255,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d10203e-8e6a-44a5-ac92-fe08ab76c75e")
+			(uuid "b94ad383-2da6-450e-850c-e5894336452c")
 			(effects
 				(font
 					(size 1 1)
@@ -6176,7 +6268,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fd48ef7-d709-43f4-9d81-be1c7d4660fc")
+			(uuid "011ad7cc-f4be-46e5-9227-42c16b60a7fd")
 			(effects
 				(font
 					(size 1 1)
@@ -6189,7 +6281,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b33fb4e1-ec8e-43ed-9ca8-73228d815349")
+			(uuid "a8fdbdce-41a9-40b5-a911-1645004b2d26")
 			(effects
 				(font
 					(size 1 1)
@@ -6202,7 +6294,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2852a04d-ad7d-4e9a-8114-a806b9c1b029")
+			(uuid "58edd157-983d-492c-bf44-e4f5c7f21fe0")
 			(effects
 				(font
 					(size 1 1)
@@ -6240,12 +6332,11 @@
 		(path "/84aa480a-b495-4d6a-8bb7-3c5a8784ca20")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -6254,21 +6345,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "fdac30b3-2e85-4b9a-86fd-b6f85a229a69")
+			(uuid "44642df1-4b33-4cd0-bb8a-82a5ae10dea8")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 28 "/SDA")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "78fc2c9d-dd9b-4243-b548-8a00e8a89662")
+			(uuid "5be21292-84d4-4c5e-a301-89222cca1b74")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -6280,7 +6370,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bad1faad-9abe-4578-b6a0-eee03ea625e2")
+			(uuid "c94fa56e-02e6-468f-a042-73b06814fde8")
 			(effects
 				(font
 					(size 1 1)
@@ -6293,7 +6383,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8cfcf6e-3d67-4a8e-ab2f-5097ef3070b0")
+			(uuid "8d5319a0-875e-49fa-990b-ebe79f7de480")
 			(effects
 				(font
 					(size 1 1)
@@ -6306,7 +6396,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b9a340d-a6ed-458c-98c7-9e93ec552b1d")
+			(uuid "1377be92-ad73-42e8-a280-38e517eaed78")
 			(effects
 				(font
 					(size 1 1)
@@ -6319,7 +6409,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3189f860-59f4-4049-b644-e9d3e5154cd9")
+			(uuid "19359230-ae4e-42a1-a04a-c403b77c8eb2")
 			(effects
 				(font
 					(size 1 1)
@@ -6332,7 +6422,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ae2c68f-7179-4269-98b2-8d050148615f")
+			(uuid "3c9cefe1-f2e3-4abf-85ff-b3eae3dc952f")
 			(effects
 				(font
 					(size 1 1)
@@ -6370,12 +6460,11 @@
 		(path "/36254a3c-94be-459b-8a2d-12dfb6915e9a")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -6384,21 +6473,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "3c0385fc-8ac1-4aa4-96b9-ceeee52427ce")
+			(uuid "e7d54c32-804b-4134-bc06-c01ab201d6b5")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 9 "/SCL")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "682ead82-a96b-4e82-ad2c-a48833cf0fb0")
+			(uuid "1ee2ef56-fb6e-47a5-a34b-55091473f07b")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
@@ -6651,7 +6739,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6ff7c60c-3fff-4b30-92fb-f1c9c55045f3")
+			(uuid "d442ce49-a00c-4fbe-959f-5d5e8a00d597")
 			(effects
 				(font
 					(size 1 1)
@@ -6664,7 +6752,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "287d2bb9-c11a-4cc2-9795-7e9173274f8c")
+			(uuid "62f75577-4291-4129-b628-eff5df171305")
 			(effects
 				(font
 					(size 1 1)
@@ -6677,7 +6765,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32edbfd2-5e0e-407f-b5b9-75fd6f1d093f")
+			(uuid "1a4e54c7-0c78-44a0-9adc-88166ba1aa87")
 			(effects
 				(font
 					(size 1 1)
@@ -6690,7 +6778,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19a3f884-97a5-40be-9b57-f307a0374fd0")
+			(uuid "a7b9c87c-0b98-4d08-a3d1-e12f3a1190a8")
 			(effects
 				(font
 					(size 1 1)
@@ -6703,7 +6791,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce9feff9-bddb-44ad-9895-7089af391365")
+			(uuid "6a3da67d-1c1c-4a77-b975-d8d75c554e5c")
 			(effects
 				(font
 					(size 1 1)
@@ -6741,12 +6829,11 @@
 		(path "/1c1f1323-308b-4f3a-ae1b-79674927faa5")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -6755,21 +6842,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "67b53a94-273d-4a57-834c-1bbf06396adc")
+			(uuid "561ce5d8-751a-437d-ad41-745dc4e12fa4")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 20 "+3.3V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "96ec8425-9ccb-46e0-87d1-ed0ec85403e0")
+			(uuid "93b79e3b-3107-4ed7-8b0f-a28dbe198bcd")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -6781,7 +6867,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f3b02a1d-b61c-489d-b0f9-59de25c938d9")
+			(uuid "68e7066b-c79e-41b9-b027-c69af2a921f2")
 			(effects
 				(font
 					(size 1 1)
@@ -6794,7 +6880,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89c5a027-f827-49c6-a847-482da49747cd")
+			(uuid "1cad0188-2430-4abd-817f-3de55d7ec8f6")
 			(effects
 				(font
 					(size 1 1)
@@ -6807,7 +6893,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22885273-5fc5-45eb-aa45-c47e9b82f6fa")
+			(uuid "beb3a2db-7b9a-47a5-a2ad-8d3bc26c79aa")
 			(effects
 				(font
 					(size 1 1)
@@ -6820,7 +6906,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "516e0213-1cd9-4912-8840-0c9fa7812802")
+			(uuid "be836286-4203-48d2-a686-df6f1d7fccf0")
 			(effects
 				(font
 					(size 1 1)
@@ -6833,7 +6919,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60fc0f2a-89cd-4695-b798-4f92d821c8a3")
+			(uuid "035ee209-10d5-417b-a113-27243473931b")
 			(effects
 				(font
 					(size 1 1)
@@ -6871,12 +6957,11 @@
 		(path "/402070c8-b2cd-4171-8468-1f56f3073e80")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -6885,21 +6970,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "6f643127-809a-4962-9a78-9b39fabf3ba5")
+			(uuid "a8c8e8e1-1bd3-44e9-9df4-9ee043951f7e")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 24 "/IO7")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "6460c219-4364-415e-b6ba-59731f0b1251")
+			(uuid "55277e7c-921b-4de3-b43a-568f5f1c84f4")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -6911,7 +6995,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1fabbb33-eda3-4b74-9bbf-9752b7e5e808")
+			(uuid "32b7c573-b810-47ab-a30d-35cbb6b6be04")
 			(effects
 				(font
 					(size 1 1)
@@ -6924,7 +7008,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c737800d-355a-4d01-98f8-24045091cade")
+			(uuid "d410eda9-cb35-488a-a5ac-ce9dae7d99fa")
 			(effects
 				(font
 					(size 1 1)
@@ -6937,7 +7021,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c636b3bc-9a37-4a94-9d11-12febbfdd2a4")
+			(uuid "dc9ae0cf-b845-4761-9cee-144d3325031f")
 			(effects
 				(font
 					(size 1 1)
@@ -6950,7 +7034,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4859e2dd-cfe6-4392-b741-74dc589e7c51")
+			(uuid "f7aa7b89-67e4-4b3a-9536-1893ff192b00")
 			(effects
 				(font
 					(size 1 1)
@@ -6963,7 +7047,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d22c221-1e76-45d5-a7cd-a60d6a3d014d")
+			(uuid "6c183513-693e-409c-8f1c-4b4905f773d1")
 			(effects
 				(font
 					(size 1 1)
@@ -7001,12 +7085,11 @@
 		(path "/3a03bdb4-3e4d-414a-8c64-bdf9d706df4c")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -7015,138 +7098,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "9c0061d8-48cc-4509-a64c-555382abf457")
+			(uuid "3ce34e9b-8520-4182-807f-5e36eae0de7d")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 12 "/IO1")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "e8a1b5e3-a550-46c5-a46d-8a61d264282c")
-		)
-	)
-	(footprint "kikit:Tab"
-		(layer "F.Cu")
-		(uuid "dcde316c-75e3-4284-8923-d59e2aa0106a")
-		(at 97.79 104.394 90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at 0 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2d189b68-2899-4067-a5dc-8026a2efb7e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "0dc60f0c-a3a4-4166-954e-efa464f64d68")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3a7d262-dd46-4ecf-95a1-d76d7843612e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b264ce0d-77c5-40c8-b946-f937f2dbb3ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7882ece4-4cea-4227-a556-36a4e128938a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "08b66faf-3934-4a0f-8257-8a805a030664")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -2.75 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a8eb7264-576b-4469-8c4a-fefe4bbf3850")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a257157a-088b-4276-9275-21d737d548b7")
-		)
-		(fp_line
-			(start 0.25 1)
-			(end 0.25 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "ba29a925-2c85-4774-87c6-1544cdebefd6")
-		)
-		(fp_text user "KIKIT: width: 2.5mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "8408481e-7768-433f-8af0-b2b5406a04c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "45ad4d82-7e93-4088-a9bb-79c3c6d8fdb9")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -7158,7 +7123,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fb5de906-101d-4f1c-88a2-4d51233028e6")
+			(uuid "3ebad705-11b8-4f86-853c-b49b0e831f69")
 			(effects
 				(font
 					(size 1 1)
@@ -7171,7 +7136,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dc8a6d9-c541-44b4-9217-d24acd1b2429")
+			(uuid "d8ef38db-880a-4ab3-be37-3ba56b80e284")
 			(effects
 				(font
 					(size 1 1)
@@ -7184,7 +7149,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7a5c39c-5606-4dee-aadc-dcc42db07485")
+			(uuid "305c79fb-c51c-4216-82e9-03c8b2717d6c")
 			(effects
 				(font
 					(size 1 1)
@@ -7197,7 +7162,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08b44e0b-a95f-4a61-ac74-aecd4a3c1206")
+			(uuid "04836158-fa99-49b5-a111-e1445e5727d5")
 			(effects
 				(font
 					(size 1 1)
@@ -7210,7 +7175,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ed5c02b-e750-43f7-a8e6-b032dfddaf26")
+			(uuid "bfe12054-fdd2-4f18-a840-1da696ae9ff1")
 			(effects
 				(font
 					(size 1 1)
@@ -7248,12 +7213,11 @@
 		(path "/161bdaea-3b94-4e5a-b9aa-929a6acb11cd")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -7262,21 +7226,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "dc746dba-1792-48f2-a4d2-77eca34991c7")
+			(uuid "1c49fad9-06c4-4bb3-ae06-7765dfd9fdf1")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 13 "/IO5")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "47e0809c-75a8-466d-a06d-5c73f800ea81")
+			(uuid "502ffa96-cc49-4aa3-b2cb-c82e7fe7c6f0")
 		)
 	)
 	(footprint "Castellated_Holes:Castellated_Hole02"
@@ -7288,7 +7251,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "088d5005-3689-4904-8e9c-77655e004969")
+			(uuid "1f7ee05c-684b-4f48-b54c-64170fa5ad53")
 			(effects
 				(font
 					(size 1 1)
@@ -7301,7 +7264,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93e28390-863c-4524-958f-7bcae2560b4c")
+			(uuid "fbbe4c6c-e020-434c-aae3-4d9fdb27a3b9")
 			(effects
 				(font
 					(size 1 1)
@@ -7314,7 +7277,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53f2ed84-8381-47b5-9668-02542174d933")
+			(uuid "9729a67b-65d0-4332-8b73-b84d1d4b15b0")
 			(effects
 				(font
 					(size 1 1)
@@ -7327,7 +7290,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c42eeb6-092c-4b3b-901d-f984b01be338")
+			(uuid "e657cabf-8b1e-4586-8aa6-a32a575ac6eb")
 			(effects
 				(font
 					(size 1 1)
@@ -7340,7 +7303,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71ad9dee-e80d-4f54-aa16-50ed9a855fcb")
+			(uuid "3a293c7d-5eb9-438d-8152-82321013c46c")
 			(effects
 				(font
 					(size 1 1)
@@ -7378,12 +7341,11 @@
 		(path "/df3c9302-33c4-4a40-bf25-72e961ff7b40")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -7392,21 +7354,140 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "95f741b2-a1bf-4c6f-814f-e8f579156776")
+			(uuid "d8d77c3b-1658-43eb-b212-4edbd9088724")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0 180)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 26 "/IO9")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "e1597ca2-d905-499c-b9ed-6bfe702d6941")
+			(uuid "1d544e67-1be2-4840-bb3d-06aea2ada0ac")
+		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "e3b5a6a0-963f-4e86-8b2c-81586f71877c")
+		(at 113.538 77.978 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T2"
+			(at 0 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f1103735-70ff-4215-b931-ddfd9a8c6a30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -2.75 -1 90)
+			(layer "Dwgs.User")
+			(uuid "8443e958-9f02-45f1-a796-7a68cdfb938e")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67a90819-8ac7-4cd3-ba5c-47cff8d3c475")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3221be6-85d6-45d1-a2ef-496294dac022")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fad9210-dee2-4dac-8fa8-ba4ba378c6a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/096ae2ce-00f7-4d76-acf9-02544b7f4249")
+		(sheetname "Stammblatt")
+		(sheetfile "project.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 0.25 1)
+			(end 0.25 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a3f67de7-b112-473f-af59-1458bf09f3f9")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "53c19ad6-6120-4b98-ba0a-449a5e5c20bb")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -2.75 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9dbdb5b5-73cf-4f7e-b870-a16e8d41a4dc")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "dd7488c2-7e63-41f2-98c4-cc94e3d4323d")
+		)
+		(fp_text user "KIKIT: width: 2.5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "53dad484-88de-4944-ad0a-7c7db4e13428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
@@ -7659,7 +7740,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c7f53c7a-04ac-4791-8b4c-7560bf01b48b")
+			(uuid "7a179188-9cd3-467a-a513-e91dc6a64906")
 			(effects
 				(font
 					(size 1 1)
@@ -7672,7 +7753,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35d80320-d08e-4ce1-a66b-135311894cab")
+			(uuid "4935f16e-7341-4d64-a772-3dc38004ada7")
 			(effects
 				(font
 					(size 1 1)
@@ -7685,7 +7766,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acdeeb5a-ffde-48fa-a54d-d020eaa983fa")
+			(uuid "ba384969-49fd-48b3-be56-4fac0005acc9")
 			(effects
 				(font
 					(size 1 1)
@@ -7698,7 +7779,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73b6c2d1-3930-46b2-b5eb-ccafd1c2f3af")
+			(uuid "3a7a6708-5701-4d59-aa57-6272eb80f67f")
 			(effects
 				(font
 					(size 1 1)
@@ -7711,7 +7792,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4aeb5aa-3a11-4b0e-b2e5-479e554d4c4c")
+			(uuid "978a7140-9ff5-4fa1-9468-fc7da0e37e36")
 			(effects
 				(font
 					(size 1 1)
@@ -7749,12 +7830,11 @@
 		(path "/f5d16088-8cd9-42a4-ab5d-3401e32dd6d1")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
-		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
+			(size 2.25 1.5)
 			(drill 1
-				(offset 0.75 0)
+				(offset 1.125 0)
 			)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
@@ -7763,21 +7843,20 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "28a511f1-9245-4203-9410-8e9668cc4b98")
+			(uuid "02f3e831-da76-4111-8649-6051892956aa")
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" thru_hole circle
 			(at 1.5 0)
 			(size 1.5 1.5)
 			(drill 1)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1666666667)
 			(net 8 "/IO2")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.04)
-			(uuid "ebb8c387-e425-47cb-9975-399eb0bd9d77")
+			(uuid "8472893f-24e1-410f-a94b-954212ea49ca")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
@@ -8018,123 +8097,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "kikit:Tab"
-		(layer "F.Cu")
-		(uuid "eee06e41-f2c7-486c-9bc8-4c63d2f09a02")
-		(at 97.79 77.978 -90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at 0 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "709e7573-5f79-4af3-b3a8-8f749dbcc6dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "4e97c969-090a-4411-bcf8-72393605a21f")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3a7d262-dd46-4ecf-95a1-d76d7843612e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b264ce0d-77c5-40c8-b946-f937f2dbb3ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7882ece4-4cea-4227-a556-36a4e128938a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_line
-			(start 0.25 1)
-			(end 0.25 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "31347023-ba10-445c-a127-472639d7bc81")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2e70c771-1849-43e0-848d-682839fa193a")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -2.75 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "73eed41c-6aab-4c86-8a84-072a452f7377")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end -0.75 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "68e41319-c3b2-4c8e-82ec-09c28ac474e2")
-		)
-		(fp_text user "KIKIT: width: 2.5mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "bd183e07-e13e-4e75-ad77-c7b9b66a4514")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
 			)
 		)
 	)
@@ -17308,8 +17270,8 @@
 				(xy 109.299856 94.904215) (xy 109.312311 94.902163) (xy 109.399255 94.892368) (xy 109.569522 94.832789)
 				(xy 109.722262 94.736816) (xy 109.849816 94.609262) (xy 109.945789 94.456522) (xy 110.005368 94.286255)
 				(xy 110.006247 94.278454) (xy 110.025565 94.107003) (xy 110.025565 94.106996) (xy 110.005369 93.92775)
-				(xy 110.005368 93.927745) (xy 109.988142 93.878517) (xy 109.945789 93.757478) (xy 109.938263 93.745501)
-				(xy 109.872484 93.640814) (xy 109.849816 93.604738) (xy 109.722262 93.477184) (xy 109.714012 93.472)
+				(xy 110.005368 93.927745) (xy 109.976498 93.84524) (xy 109.945789 93.757478) (xy 109.938263 93.745501)
+				(xy 109.8729 93.641476) (xy 109.849816 93.604738) (xy 109.722262 93.477184) (xy 109.714012 93.472)
 				(xy 109.569523 93.381211) (xy 109.399254 93.321631) (xy 109.399249 93.32163) (xy 109.220004 93.301435)
 				(xy 109.219996 93.301435) (xy 109.04075 93.32163) (xy 109.040745 93.321631) (xy 108.870476 93.381211)
 				(xy 108.717737 93.477184) (xy 108.590184 93.604737) (xy 108.49421 93.757478) (xy 108.43463 93.92775)
@@ -17322,58 +17284,59 @@
 				(xy 106.974383 94.135501) (xy 106.974381 94.1355) (xy 106.974373 94.1355) (xy 106.974365 94.1355)
 				(xy 105.83004 94.1355) (xy 105.763001 94.115815) (xy 105.717246 94.063011) (xy 105.70682 93.997618)
 				(xy 105.707565 93.991005) (xy 105.707565 93.990997) (xy 105.687369 93.81175) (xy 105.687368 93.811745)
-				(xy 105.627788 93.641476) (xy 105.551226 93.519629) (xy 105.531816 93.488738) (xy 105.404262 93.361184)
-				(xy 105.346464 93.324867) (xy 105.251523 93.265211) (xy 105.081254 93.205631) (xy 105.081249 93.20563)
-				(xy 104.902004 93.185435) (xy 104.901996 93.185435) (xy 104.72275 93.20563) (xy 104.722745 93.205631)
-				(xy 104.552476 93.265211) (xy 104.399737 93.361184) (xy 104.272184 93.488737) (xy 104.176211 93.641476)
-				(xy 104.116631 93.811745) (xy 104.11663 93.81175) (xy 104.096435 93.990996) (xy 104.096435 93.991003)
-				(xy 104.11663 94.170249) (xy 104.116631 94.170254) (xy 104.176211 94.340523) (xy 104.272182 94.493259)
-				(xy 104.274441 94.496091) (xy 104.27533 94.498268) (xy 104.275889 94.499158) (xy 104.275733 94.499255)
-				(xy 104.300854 94.560776) (xy 104.301499 94.57341) (xy 104.301499 94.590556) (xy 104.323834 94.673912)
-				(xy 104.322171 94.743762) (xy 104.291741 94.793685) (xy 104.253186 94.832239) (xy 104.253186 94.83224)
-				(xy 104.157211 94.984982) (xy 104.097631 95.155251) (xy 104.09763 95.155256) (xy 104.077435 95.334502)
-				(xy 104.077435 95.334509) (xy 104.09763 95.513755) (xy 104.097631 95.51376) (xy 104.157211 95.684029)
-				(xy 104.253184 95.836768) (xy 104.265687 95.849271) (xy 104.299172 95.910594) (xy 104.294188 95.980286)
-				(xy 104.274958 96.014259) (xy 104.272185 96.017735) (xy 104.176211 96.170476) (xy 104.116631 96.340745)
-				(xy 104.11663 96.34075) (xy 104.096435 96.519996) (xy 104.096435 96.520003) (xy 104.11663 96.699249)
-				(xy 104.116631 96.699254) (xy 104.176211 96.869523) (xy 104.272184 97.022262) (xy 104.375403 97.125481)
-				(xy 104.408888 97.186804) (xy 104.403904 97.256496) (xy 104.362032 97.312429) (xy 104.328677 97.330203)
-				(xy 104.17148 97.385209) (xy 104.018737 97.481184) (xy 103.891184 97.608737) (xy 103.795211 97.761476)
-				(xy 103.735631 97.931745) (xy 103.73563 97.93175) (xy 103.715435 98.110996) (xy 103.715435 98.111003)
-				(xy 103.73563 98.290249) (xy 103.735631 98.290254) (xy 103.795211 98.460523) (xy 103.891184 98.613262)
-				(xy 103.951241 98.673319) (xy 103.984726 98.734642) (xy 103.979742 98.804334) (xy 103.951241 98.848681)
-				(xy 103.891184 98.908737) (xy 103.795211 99.061476) (xy 103.735631 99.231745) (xy 103.73563 99.23175)
-				(xy 103.715435 99.410996) (xy 103.715435 99.411003) (xy 103.73563 99.590249) (xy 103.735631 99.590254)
-				(xy 103.795211 99.760523) (xy 103.866466 99.873924) (xy 103.885466 99.941161) (xy 103.865098 100.007996)
-				(xy 103.81183 100.05321) (xy 103.742574 100.062447) (xy 103.6955 100.044889) (xy 103.600526 99.985212)
-				(xy 103.430254 99.925631) (xy 103.430249 99.92563) (xy 103.251004 99.905435) (xy 103.250996 99.905435)
-				(xy 103.07175 99.92563) (xy 103.071742 99.925632) (xy 102.930037 99.975217) (xy 102.860258 99.978778)
-				(xy 102.799631 99.944049) (xy 102.768051 99.883301) (xy 102.767917 99.883332) (xy 102.767799 99.882816)
-				(xy 102.767404 99.882056) (xy 102.766942 99.879062) (xy 102.766368 99.876545) (xy 102.765451 99.873924)
-				(xy 102.706789 99.706278) (xy 102.610816 99.553538) (xy 102.550759 99.493481) (xy 102.517274 99.432158)
-				(xy 102.522258 99.362466) (xy 102.550759 99.318119) (xy 102.570017 99.298861) (xy 102.610816 99.258062)
-				(xy 102.706789 99.105322) (xy 102.766368 98.935055) (xy 102.766369 98.935049) (xy 102.786565 98.755803)
-				(xy 102.786565 98.755796) (xy 102.766369 98.57655) (xy 102.766368 98.576545) (xy 102.737731 98.494705)
-				(xy 102.706789 98.406278) (xy 102.695826 98.388831) (xy 102.632926 98.288726) (xy 102.613926 98.22149)
-				(xy 102.634294 98.154654) (xy 102.671946 98.117761) (xy 102.737262 98.076721) (xy 102.864816 97.949167)
-				(xy 102.960789 97.796427) (xy 103.020368 97.62616) (xy 103.040565 97.446905) (xy 103.039311 97.435779)
-				(xy 103.020369 97.267655) (xy 103.020368 97.26765) (xy 103.016465 97.256496) (xy 102.960789 97.097383)
-				(xy 102.93861 97.062086) (xy 102.913587 97.022262) (xy 102.864816 96.944643) (xy 102.768877 96.848704)
-				(xy 102.735392 96.787381) (xy 102.740376 96.717689) (xy 102.751564 96.695051) (xy 102.760389 96.681004)
-				(xy 102.842727 96.549966) (xy 102.902306 96.379699) (xy 102.905519 96.351186) (xy 102.922503 96.200447)
-				(xy 102.922503 96.20044) (xy 102.902307 96.021194) (xy 102.902306 96.021189) (xy 102.880871 95.959931)
-				(xy 102.842727 95.850922) (xy 102.833833 95.836768) (xy 102.746753 95.698181) (xy 102.662506 95.613934)
-				(xy 102.629021 95.552611) (xy 102.634005 95.482919) (xy 102.662506 95.438572) (xy 102.737816 95.363262)
-				(xy 102.833789 95.210522) (xy 102.893368 95.040255) (xy 102.893369 95.040249) (xy 102.913565 94.861003)
-				(xy 102.913565 94.860996) (xy 102.893369 94.68175) (xy 102.893368 94.681745) (xy 102.86146 94.590557)
-				(xy 102.833789 94.511478) (xy 102.737816 94.358738) (xy 102.610262 94.231184) (xy 102.513285 94.170249)
-				(xy 102.457524 94.135212) (xy 102.451254 94.132193) (xy 102.452603 94.129391) (xy 102.406987 94.096687)
-				(xy 102.387662 94.061303) (xy 102.385368 94.054748) (xy 102.385368 94.054745) (xy 102.325789 93.884478)
-				(xy 102.229816 93.731738) (xy 102.102262 93.604184) (xy 102.078291 93.589122) (xy 101.949523 93.508211)
-				(xy 101.779254 93.448631) (xy 101.779249 93.44863) (xy 101.600004 93.428435) (xy 101.599996 93.428435)
-				(xy 101.42075 93.44863) (xy 101.420745 93.448631) (xy 101.267605 93.502218) (xy 101.197826 93.505779)
-				(xy 101.183323 93.50136) (xy 101.166417 93.495055) (xy 101.157981 93.491908) (xy 101.098383 93.485501)
-				(xy 101.098381 93.4855) (xy 101.098373 93.4855) (xy 101.098364 93.4855) (xy 99.527629 93.4855) (xy 99.527623 93.485501)
+				(xy 105.650541 93.706499) (xy 105.627789 93.641478) (xy 105.619605 93.628454) (xy 105.551226 93.519629)
+				(xy 105.531816 93.488738) (xy 105.404262 93.361184) (xy 105.346464 93.324867) (xy 105.251523 93.265211)
+				(xy 105.081254 93.205631) (xy 105.081249 93.20563) (xy 104.902004 93.185435) (xy 104.901996 93.185435)
+				(xy 104.72275 93.20563) (xy 104.722745 93.205631) (xy 104.552476 93.265211) (xy 104.399737 93.361184)
+				(xy 104.272184 93.488737) (xy 104.176211 93.641476) (xy 104.116631 93.811745) (xy 104.11663 93.81175)
+				(xy 104.096435 93.990996) (xy 104.096435 93.991003) (xy 104.11663 94.170249) (xy 104.116631 94.170254)
+				(xy 104.176211 94.340523) (xy 104.272182 94.493259) (xy 104.274441 94.496091) (xy 104.27533 94.498268)
+				(xy 104.275889 94.499158) (xy 104.275733 94.499255) (xy 104.300854 94.560776) (xy 104.301499 94.57341)
+				(xy 104.301499 94.590556) (xy 104.323834 94.673912) (xy 104.322171 94.743762) (xy 104.291741 94.793685)
+				(xy 104.253186 94.832239) (xy 104.253186 94.83224) (xy 104.157211 94.984982) (xy 104.097631 95.155251)
+				(xy 104.09763 95.155256) (xy 104.077435 95.334502) (xy 104.077435 95.334509) (xy 104.09763 95.513755)
+				(xy 104.097631 95.51376) (xy 104.157211 95.684029) (xy 104.253184 95.836768) (xy 104.265687 95.849271)
+				(xy 104.299172 95.910594) (xy 104.294188 95.980286) (xy 104.274958 96.014259) (xy 104.272185 96.017735)
+				(xy 104.176211 96.170476) (xy 104.116631 96.340745) (xy 104.11663 96.34075) (xy 104.096435 96.519996)
+				(xy 104.096435 96.520003) (xy 104.11663 96.699249) (xy 104.116631 96.699254) (xy 104.176211 96.869523)
+				(xy 104.272184 97.022262) (xy 104.375403 97.125481) (xy 104.408888 97.186804) (xy 104.403904 97.256496)
+				(xy 104.362032 97.312429) (xy 104.328677 97.330203) (xy 104.17148 97.385209) (xy 104.018737 97.481184)
+				(xy 103.891184 97.608737) (xy 103.795211 97.761476) (xy 103.735631 97.931745) (xy 103.73563 97.93175)
+				(xy 103.715435 98.110996) (xy 103.715435 98.111003) (xy 103.73563 98.290249) (xy 103.735631 98.290254)
+				(xy 103.795211 98.460523) (xy 103.891184 98.613262) (xy 103.951241 98.673319) (xy 103.984726 98.734642)
+				(xy 103.979742 98.804334) (xy 103.951241 98.848681) (xy 103.891184 98.908737) (xy 103.795211 99.061476)
+				(xy 103.735631 99.231745) (xy 103.73563 99.23175) (xy 103.715435 99.410996) (xy 103.715435 99.411003)
+				(xy 103.73563 99.590249) (xy 103.735631 99.590254) (xy 103.795211 99.760523) (xy 103.866466 99.873924)
+				(xy 103.885466 99.941161) (xy 103.865098 100.007996) (xy 103.81183 100.05321) (xy 103.742574 100.062447)
+				(xy 103.6955 100.044889) (xy 103.600526 99.985212) (xy 103.430254 99.925631) (xy 103.430249 99.92563)
+				(xy 103.251004 99.905435) (xy 103.250996 99.905435) (xy 103.07175 99.92563) (xy 103.071742 99.925632)
+				(xy 102.930037 99.975217) (xy 102.860258 99.978778) (xy 102.799631 99.944049) (xy 102.768051 99.883301)
+				(xy 102.767917 99.883332) (xy 102.767799 99.882816) (xy 102.767404 99.882056) (xy 102.766942 99.879062)
+				(xy 102.766368 99.876545) (xy 102.765451 99.873924) (xy 102.706789 99.706278) (xy 102.610816 99.553538)
+				(xy 102.550759 99.493481) (xy 102.517274 99.432158) (xy 102.522258 99.362466) (xy 102.550759 99.318119)
+				(xy 102.570017 99.298861) (xy 102.610816 99.258062) (xy 102.706789 99.105322) (xy 102.766368 98.935055)
+				(xy 102.766369 98.935049) (xy 102.786565 98.755803) (xy 102.786565 98.755796) (xy 102.766369 98.57655)
+				(xy 102.766368 98.576545) (xy 102.737731 98.494705) (xy 102.706789 98.406278) (xy 102.698749 98.393483)
+				(xy 102.632926 98.288726) (xy 102.613926 98.22149) (xy 102.634294 98.154654) (xy 102.671946 98.117761)
+				(xy 102.737262 98.076721) (xy 102.864816 97.949167) (xy 102.960789 97.796427) (xy 103.020368 97.62616)
+				(xy 103.024374 97.590608) (xy 103.040565 97.446908) (xy 103.040565 97.446901) (xy 103.020369 97.267655)
+				(xy 103.020368 97.26765) (xy 103.016465 97.256496) (xy 102.960789 97.097383) (xy 102.93861 97.062086)
+				(xy 102.913587 97.022262) (xy 102.864816 96.944643) (xy 102.768877 96.848704) (xy 102.735392 96.787381)
+				(xy 102.740376 96.717689) (xy 102.751564 96.695051) (xy 102.842726 96.549967) (xy 102.842727 96.549966)
+				(xy 102.902306 96.379699) (xy 102.906531 96.342204) (xy 102.922503 96.200447) (xy 102.922503 96.20044)
+				(xy 102.902307 96.021194) (xy 102.902306 96.021189) (xy 102.880871 95.959931) (xy 102.842727 95.850922)
+				(xy 102.833833 95.836768) (xy 102.746753 95.698181) (xy 102.662506 95.613934) (xy 102.629021 95.552611)
+				(xy 102.634005 95.482919) (xy 102.662506 95.438572) (xy 102.737816 95.363262) (xy 102.833789 95.210522)
+				(xy 102.893368 95.040255) (xy 102.893369 95.040249) (xy 102.913565 94.861003) (xy 102.913565 94.860996)
+				(xy 102.893369 94.68175) (xy 102.893368 94.681745) (xy 102.86146 94.590557) (xy 102.833789 94.511478)
+				(xy 102.737816 94.358738) (xy 102.610262 94.231184) (xy 102.513285 94.170249) (xy 102.457524 94.135212)
+				(xy 102.451254 94.132193) (xy 102.452603 94.129391) (xy 102.406987 94.096687) (xy 102.387662 94.061303)
+				(xy 102.385368 94.054748) (xy 102.385368 94.054745) (xy 102.325789 93.884478) (xy 102.229816 93.731738)
+				(xy 102.102262 93.604184) (xy 102.078291 93.589122) (xy 101.949523 93.508211) (xy 101.779254 93.448631)
+				(xy 101.779249 93.44863) (xy 101.600004 93.428435) (xy 101.599996 93.428435) (xy 101.42075 93.44863)
+				(xy 101.420745 93.448631) (xy 101.267605 93.502218) (xy 101.197826 93.505779) (xy 101.183323 93.50136)
+				(xy 101.166417 93.495055) (xy 101.157981 93.491908) (xy 101.098383 93.485501) (xy 101.098381 93.4855)
+				(xy 101.098373 93.4855) (xy 101.098364 93.4855) (xy 99.527629 93.4855) (xy 99.527623 93.485501)
 				(xy 99.468016 93.491908) (xy 99.333171 93.542202) (xy 99.333164 93.542206) (xy 99.30311 93.564705)
 				(xy 99.237646 93.589122) (xy 99.169373 93.57427) (xy 99.141119 93.553119) (xy 99.06 93.472) (xy 97.1445 93.472)
 				(xy 97.077461 93.452315) (xy 97.031706 93.399511) (xy 97.0205 93.348) (xy 97.0205 91.564) (xy 97.040185 91.496961)
@@ -17426,7 +17389,7 @@
 				(xy 104.9945 86.434412) (xy 105.014185 86.367373) (xy 105.021555 86.357097) (xy 105.02381 86.354267)
 				(xy 105.023816 86.354262) (xy 105.119789 86.201522) (xy 105.179368 86.031255) (xy 105.179369 86.031249)
 				(xy 105.199565 85.852003) (xy 105.199565 85.851996) (xy 105.179369 85.67275) (xy 105.179368 85.672745)
-				(xy 105.151206 85.592262) (xy 105.119789 85.502478) (xy 105.118398 85.500265) (xy 105.048629 85.389228)
+				(xy 105.151206 85.592262) (xy 105.119789 85.502478) (xy 105.118398 85.500265) (xy 105.034589 85.366883)
 				(xy 105.023816 85.349738) (xy 105.005541 85.331463) (xy 104.973448 85.275876) (xy 104.953577 85.201716)
 				(xy 104.898095 85.105617) (xy 104.874524 85.06479) (xy 104.874521 85.064786) (xy 104.87452 85.064784)
 				(xy 104.762716 84.95298) (xy 104.762715 84.952979) (xy 104.758385 84.948649) (xy 104.758374 84.948639)
@@ -17440,7 +17403,7 @@
 				(xy 105.769717 83.236038) (xy 105.770605 83.235823) (xy 105.776299 83.233465) (xy 105.776666 83.234352)
 				(xy 105.837615 83.219561) (xy 105.903644 83.242408) (xy 105.946839 83.297325) (xy 105.948765 83.302463)
 				(xy 105.954208 83.318018) (xy 106.03027 83.439069) (xy 106.050184 83.470762) (xy 106.177738 83.598316)
-				(xy 106.260632 83.650402) (xy 106.328316 83.692931) (xy 106.330478 83.694289) (xy 106.396643 83.717441)
+				(xy 106.247585 83.642204) (xy 106.328316 83.692931) (xy 106.330478 83.694289) (xy 106.396643 83.717441)
 				(xy 106.500745 83.753868) (xy 106.50075 83.753869) (xy 106.513964 83.755358) (xy 106.578378 83.782424)
 				(xy 106.617934 83.840018) (xy 106.623574 83.889796) (xy 106.6215 83.912619) (xy 106.6215 83.912627)
 				(xy 106.6215 84.083402) (xy 106.601815 84.150441) (xy 106.585181 84.171083) (xy 106.453481 84.302782)
@@ -17458,7 +17421,7 @@
 				(xy 106.6215 87.462388) (xy 106.627546 87.528926) (xy 106.627548 87.528933) (xy 106.675265 87.682066)
 				(xy 106.675266 87.682068) (xy 106.69457 87.714001) (xy 106.712405 87.781556) (xy 106.705494 87.819103)
 				(xy 106.656632 87.958742) (xy 106.65663 87.95875) (xy 106.636435 88.137996) (xy 106.636435 88.138003)
-				(xy 106.65663 88.317249) (xy 106.656631 88.317254) (xy 106.716211 88.487523) (xy 106.803536 88.626499)
+				(xy 106.65663 88.317249) (xy 106.656631 88.317254) (xy 106.716211 88.487523) (xy 106.788969 88.603316)
 				(xy 106.812184 88.640262) (xy 106.939738 88.767816) (xy 107.092478 88.863789) (xy 107.237119 88.914401)
 				(xy 107.262745 88.923368) (xy 107.26275 88.923369) (xy 107.441996 88.943565) (xy 107.442 88.943565)
 				(xy 107.442004 88.943565) (xy 107.621249 88.923369) (xy 107.621252 88.923368) (xy 107.621255 88.923368)
@@ -17503,33 +17466,33 @@
 				(xy 110.294499 89.57562) (xy 110.294499 89.575611) (xy 110.288453 89.509073) (xy 110.288452 89.50907)
 				(xy 110.288452 89.509067) (xy 110.240733 89.355931) (xy 110.223635 89.327648) (xy 110.2058 89.260096)
 				(xy 110.227317 89.193622) (xy 110.281358 89.149334) (xy 110.329753 89.1395) (xy 110.391984 89.1395)
-				(xy 110.392 89.1395) (xy 110.455522 89.135493) (xy 110.594236 89.097283) (xy 110.595233 89.096666)
-				(xy 110.615608 89.08405) (xy 110.716566 89.02154) (xy 110.812601 88.914401) (xy 111.312601 88.164401)
-				(xy 111.321786 88.15011) (xy 111.379348 88.018246) (xy 111.397429 87.875506) (xy 111.374562 87.733454)
-				(xy 111.312601 87.603599) (xy 110.929789 87.029381) (xy 110.812602 86.8536) (xy 110.774031 86.802968)
-				(xy 110.702437 86.740931) (xy 110.665294 86.708746) (xy 110.665292 86.708745) (xy 110.661133 86.705141)
-				(xy 110.623359 86.646363) (xy 110.623359 86.576493) (xy 110.661134 86.517715) (xy 110.677052 86.506005)
-				(xy 110.716566 86.48154) (xy 110.812601 86.374401) (xy 111.312601 85.624401) (xy 111.321786 85.61011)
-				(xy 111.379348 85.478246) (xy 111.389757 85.39607) (xy 111.397429 85.335509) (xy 111.396778 85.331463)
-				(xy 111.374562 85.193454) (xy 111.312601 85.063599) (xy 110.904591 84.451584) (xy 110.812602 84.3136)
-				(xy 110.774031 84.262968) (xy 110.715178 84.211971) (xy 110.665294 84.168746) (xy 110.665292 84.168745)
-				(xy 110.661133 84.165141) (xy 110.623359 84.106363) (xy 110.623359 84.036493) (xy 110.661134 83.977715)
-				(xy 110.677052 83.966005) (xy 110.716566 83.94154) (xy 110.812601 83.834401) (xy 111.312601 83.084401)
-				(xy 111.321786 83.07011) (xy 111.379348 82.938246) (xy 111.397429 82.795506) (xy 111.374562 82.653454)
-				(xy 111.312601 82.523599) (xy 110.904591 81.911584) (xy 110.812602 81.7736) (xy 110.774031 81.722968)
-				(xy 110.715178 81.671971) (xy 110.665294 81.628746) (xy 110.66529 81.628744) (xy 110.534419 81.568976)
-				(xy 110.534414 81.568975) (xy 110.392 81.5485) (xy 109.392 81.5485) (xy 109.391997 81.5485) (xy 109.320059 81.553644)
-				(xy 109.182005 81.594182) (xy 109.060969 81.671967) (xy 109.060965 81.671971) (xy 108.96675 81.7807)
-				(xy 108.966744 81.780709) (xy 108.906976 81.91158) (xy 108.906975 81.911585) (xy 108.8865 82.053999)
-				(xy 108.8865 82.0795) (xy 108.866815 82.146539) (xy 108.814011 82.192294) (xy 108.7625 82.2035)
-				(xy 108.043 82.2035) (xy 107.975961 82.183815) (xy 107.930206 82.131011) (xy 107.919 82.0795) (xy 107.918999 81.701611)
-				(xy 107.912953 81.635073) (xy 107.912952 81.63507) (xy 107.912952 81.635067) (xy 107.865233 81.481931)
-				(xy 107.832106 81.427132) (xy 107.782257 81.34467) (xy 107.782253 81.344665) (xy 107.668834 81.231246)
-				(xy 107.668829 81.231242) (xy 107.53157 81.148267) (xy 107.531566 81.148265) (xy 107.378433 81.100548)
-				(xy 107.378435 81.100548) (xy 107.351812 81.098128) (xy 107.311881 81.0945) (xy 107.311878 81.0945)
-				(xy 107.164862 81.0945) (xy 107.097823 81.074815) (xy 107.052068 81.022011) (xy 107.042124 80.952853)
-				(xy 107.071149 80.889297) (xy 107.077167 80.882832) (xy 107.188 80.772) (xy 107.188 78.8565) (xy 107.207685 78.789461)
-				(xy 107.260489 78.743706) (xy 107.312 78.7325) (xy 109.096 78.7325)
+				(xy 110.392 89.1395) (xy 110.455522 89.135493) (xy 110.594236 89.097283) (xy 110.716566 89.02154)
+				(xy 110.812601 88.914401) (xy 111.312601 88.164401) (xy 111.321786 88.15011) (xy 111.379348 88.018246)
+				(xy 111.397429 87.875506) (xy 111.374562 87.733454) (xy 111.312601 87.603599) (xy 110.929789 87.029381)
+				(xy 110.812602 86.8536) (xy 110.774031 86.802968) (xy 110.702437 86.740931) (xy 110.665294 86.708746)
+				(xy 110.665292 86.708745) (xy 110.661133 86.705141) (xy 110.623359 86.646363) (xy 110.623359 86.576493)
+				(xy 110.661134 86.517715) (xy 110.677052 86.506005) (xy 110.716566 86.48154) (xy 110.812601 86.374401)
+				(xy 111.312601 85.624401) (xy 111.321786 85.61011) (xy 111.379348 85.478246) (xy 111.389757 85.39607)
+				(xy 111.397429 85.335509) (xy 111.396778 85.331463) (xy 111.374562 85.193454) (xy 111.312601 85.063599)
+				(xy 110.904591 84.451584) (xy 110.812602 84.3136) (xy 110.774031 84.262968) (xy 110.715178 84.211971)
+				(xy 110.665294 84.168746) (xy 110.665292 84.168745) (xy 110.661133 84.165141) (xy 110.623359 84.106363)
+				(xy 110.623359 84.036493) (xy 110.661134 83.977715) (xy 110.677052 83.966005) (xy 110.716566 83.94154)
+				(xy 110.812601 83.834401) (xy 111.312601 83.084401) (xy 111.321786 83.07011) (xy 111.379348 82.938246)
+				(xy 111.397429 82.795506) (xy 111.374562 82.653454) (xy 111.312601 82.523599) (xy 110.904591 81.911584)
+				(xy 110.812602 81.7736) (xy 110.774031 81.722968) (xy 110.715178 81.671971) (xy 110.665294 81.628746)
+				(xy 110.66529 81.628744) (xy 110.534419 81.568976) (xy 110.534414 81.568975) (xy 110.392 81.5485)
+				(xy 109.392 81.5485) (xy 109.391997 81.5485) (xy 109.320059 81.553644) (xy 109.182005 81.594182)
+				(xy 109.060969 81.671967) (xy 109.060965 81.671971) (xy 108.96675 81.7807) (xy 108.966744 81.780709)
+				(xy 108.906976 81.91158) (xy 108.906975 81.911585) (xy 108.8865 82.053999) (xy 108.8865 82.0795)
+				(xy 108.866815 82.146539) (xy 108.814011 82.192294) (xy 108.7625 82.2035) (xy 108.043 82.2035) (xy 107.975961 82.183815)
+				(xy 107.930206 82.131011) (xy 107.919 82.0795) (xy 107.918999 81.701611) (xy 107.912953 81.635073)
+				(xy 107.912952 81.63507) (xy 107.912952 81.635067) (xy 107.865233 81.481931) (xy 107.8418 81.443168)
+				(xy 107.782257 81.34467) (xy 107.782253 81.344665) (xy 107.668834 81.231246) (xy 107.668829 81.231242)
+				(xy 107.53157 81.148267) (xy 107.531566 81.148265) (xy 107.378433 81.100548) (xy 107.378435 81.100548)
+				(xy 107.351812 81.098128) (xy 107.311881 81.0945) (xy 107.311878 81.0945) (xy 107.164862 81.0945)
+				(xy 107.097823 81.074815) (xy 107.052068 81.022011) (xy 107.042124 80.952853) (xy 107.071149 80.889297)
+				(xy 107.077167 80.882832) (xy 107.188 80.772) (xy 107.188 78.8565) (xy 107.207685 78.789461) (xy 107.260489 78.743706)
+				(xy 107.312 78.7325) (xy 109.096 78.7325)
 			)
 		)
 	)

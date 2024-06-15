@@ -5480,6 +5480,7 @@
 		(path "/36254a3c-94be-459b-8a2d-12dfb6915e9a")
 		(sheetname "Stammblatt")
 		(sheetfile "project.kicad_sch")
+		(attr exclude_from_bom)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.5 1.5)
