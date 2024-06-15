@@ -12,6 +12,7 @@ global:
   restore_project: true
   # We will use a value externally formatted
   time_reformat: false
+  field_lcsc_part: 'LCSC#'
 
 preflight:
   erc: true
@@ -38,56 +39,30 @@ filters:
        regex: '^(G|#|TP|F).*'
 
 outputs:
-  - name: 'print_front'
-    comment: "Print F.Cu+Dwgs.User"
-    type: pdf_pcb_print
-    dir: .
-    layers:
-      - layer: F.Cu
-      - layer: Dwgs.User
-
-  - name: 'print_bottom'
-    comment: "Print B.Cu+Dwgs.User"
-    type: pdf_pcb_print
-    dir: .
-    layers:
-      - layer: B.Cu
-      - layer: Dwgs.User
-
-  - name: pcb_top
-    comment: "PCB render top green"
-    type: pcbdraw
-    dir: PCB
+#  - name: 3D_top_view
+#    comment: "3D render from top"
+#    type: render_3d
+#    dir: 3D
+#    options:
+#      rotate_x: 3
+#      rotate_z: 3
+#      ray_tracing: true
+#      width: 1920
+#      height: 1080
+      
+  - name: 3D_top_view_HQ
+    comment: "3D render from top (High Quality)"
+    type: blender_export
+    dir: 3D
     options:
-      format: jpg
-      show_components: none
-      dpi: 600
-
-  - name: pcb_bottom
-    comment: "PCB render bottom green"
-    type: pcbdraw
-    dir: PCB
-    options:
-      format: jpg
-      bottom: True
-      show_components: none
-      dpi: 600
-
-  - name: pcb_top_filled
-    comment: "PCB render top green with components"
-    type: pcbdraw
-    dir: PCB
-    options:
-      format: jpg
-      show_components: all
-      dpi: 600
-
-  - name: pcb_bottom_filled
-    comment: "PCB render bottom green with components"
-    type: pcbdraw
-    dir: PCB
-    options:
-      format: jpg
-      bottom: True
-      show_components: all
-      dpi: 600
+      render_options:
+        transparent_background: true
+        samples: 20
+        resolution_x: 1920
+        resolution_y: 1080
+      point_of_view:
+        rotate_x: 30
+        rotate_z: -20
+      outputs:
+        - type: blender
+        - type: render

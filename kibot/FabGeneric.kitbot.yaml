@@ -98,14 +98,14 @@ outputs:
   - name: _Generic_ibom@_KIBOT_IMPORT_ID@
     comment: "Interactive Bill of Materials (HTML)"
     type: ibom
-    dir: @_KIBOT_MANF_DIR@/BoM
+    dir: @_KIBOT_MANF_DIR@
     options:
       blacklist: 'DNF*'
 
   - name: _Generic_bom_html@_KIBOT_IMPORT_ID@
     comment: "Bill of Materials in HTML format for Generic"
     type: bom
-    dir: @_KIBOT_MANF_DIR@/BoM
+    dir: @_KIBOT_MANF_DIR@
     options: &bom_options
       columns:
         - Row
@@ -138,7 +138,7 @@ outputs:
   - name: _Generic_bom_xslx@_KIBOT_IMPORT_ID@
     comment: "Bill of Materials in XLSX format"
     type: bom
-    dir: @_KIBOT_MANF_DIR@/BoM
+    dir: @_KIBOT_MANF_DIR@
     options:
       <<: *bom_options
       format: XLSX
@@ -148,7 +148,7 @@ outputs:
   - name: _Generic_bom_csv@_KIBOT_IMPORT_ID@
     comment: "Bill of Materials in CSV format"
     type: bom
-    dir: @_KIBOT_MANF_DIR@/BoM
+    dir: @_KIBOT_MANF_DIR@
     options:
       <<: *bom_options
       format: CSV

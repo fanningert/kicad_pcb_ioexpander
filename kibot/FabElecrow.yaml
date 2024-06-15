@@ -1,18 +1,18 @@
-# Gerber and drill files for PCBWay, with stencil (solder paste)
-# URL: https://www.pcbway.com
+# Gerber and drill files for Elecrow, with stencil
+# URL: https://www.elecrow.com/
 # Based on setting used by Gerber Zipper (https://github.com/g200kg/kicad-gerberzipper)
 kibot:
   version: 1
 
 groups:
-  - name: _PCBWay@_KIBOT_IMPORT_ID@
+  - name: _Elecrow@_KIBOT_IMPORT_ID@
     outputs:
-      - _PCBWay_gerbers@_KIBOT_IMPORT_ID@
-      - _PCBWay_drill@_KIBOT_IMPORT_ID@
+      - _Elecrow_gerbers@_KIBOT_IMPORT_ID@
+      - _Elecrow_drill@_KIBOT_IMPORT_ID@
 
 outputs:
-  - name: _PCBWay_gerbers@_KIBOT_IMPORT_ID@
-    comment: Gerbers compatible with PCBWay
+  - name: _Elecrow_gerbers@_KIBOT_IMPORT_ID@
+    comment: Gerbers compatible with Elecrow
     type: gerber
     dir: @_KIBOT_MANF_DIR@
     options: &gerber_options
@@ -31,43 +31,35 @@ outputs:
       use_gerber_net_attributes: false
       disable_aperture_macros: true
       line_width: 0.1
-      subtract_mask_from_silk: false
-      inner_extension_pattern: '.gl%N'
+      uppercase_extensions: true
+      subtract_mask_from_silk: true
+      inner_extension_pattern: '.g%n'
+      edge_cut_extension: '.gml'
     layers:
       @_KIBOT_GERBER_LAYERS@
       @_KIBOT_F_PASTE@
       @_KIBOT_B_PASTE@
 
-  - name: _PCBWay_drill@_KIBOT_IMPORT_ID@
-    comment: Drill files compatible with PCBWay
+  - name: _Elecrow_drill@_KIBOT_IMPORT_ID@
+    comment: Drill files compatible with Elecrow
     type: excellon
     dir: @_KIBOT_MANF_DIR@
     options:
-      metric_units: false
-      minimal_header: true
-      zeros_format: SUPPRESS_LEADING
-      # left_digits: 3
-      # right_digits: 3
-      # See https://github.com/INTI-CMNB/kicad-ci-test-spora/issues/1
-      # and https://docs.oshpark.com/design-tools/gerbv/fix-drill-format/
-      left_digits: 2
-      right_digits: 4
       pth_and_npth_single_file: false
 #      pth_id: ''
 #      npth_id: '-NPTH'
-      output: "%f%i.drl"
+      output: "%f%i.TXT"
 
-  - name: _PCBWay_compress@_KIBOT_IMPORT_ID@
-    comment: ZIP file for PCBWay
+  - name: _Elecrow_compress@_KIBOT_IMPORT_ID@
+    comment: ZIP file for Elecrow
     type: compress
     dir: @_KIBOT_MANF_DIR_COMP@
     options:
-      format: ZIP
       move_files: @_KIBOT_COMPRESS_MOVE@
       files:
-        - from_output: _PCBWay_gerbers@_KIBOT_IMPORT_ID@
+        - from_output: _Elecrow_gerbers@_KIBOT_IMPORT_ID@
           dest: /
-        - from_output: _PCBWay_drill@_KIBOT_IMPORT_ID@
+        - from_output: _Elecrow_drill@_KIBOT_IMPORT_ID@
           dest: /
 
 ...
@@ -75,11 +67,9 @@ definitions:
   _KIBOT_F_PASTE: '- F.Paste'
   _KIBOT_B_PASTE: '- B.Paste'
   _KIBOT_IMPORT_ID: ''
-  _KIBOT_IMPORT_DIR: 'PCBWay'
+  _KIBOT_IMPORT_DIR: 'Elecrow'
   _KIBOT_MANF_DIR: '@_KIBOT_IMPORT_DIR@'
   _KIBOT_MANF_DIR_COMP: '@_KIBOT_IMPORT_DIR@'
-  _KIBOT_POS_DNF_FILTER: remove_extra
-  _KIBOT_POS_ENABLED: true
   _KIBOT_PLOT_FOOTPRINT_REFS: true
   _KIBOT_PLOT_FOOTPRINT_VALUES: true
   _KIBOT_COMPRESS_MOVE: true

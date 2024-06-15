@@ -66,6 +66,15 @@ jobs:
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
         verbose: 0
         skip: erc,drc
+    - name: "Generate 3D images of single PCB"
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        config: kibot/3d.kibot.yaml
+        dir: pcb_${{ inputs.pcb-dir-prefix }}
+        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
+        board: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_pcb'
+        verbose: 0
+        skip: erc,drc
     - name: "Generate production files of single PCB"
       uses: INTI-CMNB/KiBot@v2_k8
       with:
@@ -88,6 +97,15 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k8
       with:
         config: kibot/panelize.base.kibot.yaml
+        dir: pcb_${{ inputs.pcb-dir-prefix }}/panelize
+        schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
+        board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project-panel.kicad_pcb'
+        verbose: 0
+        skip: erc,drc
+    - name: "Generate 3D images of panelized PCB"
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        config: kibot/3d.kibot.yaml
         dir: pcb_${{ inputs.pcb-dir-prefix }}/panelize
         schema: 'pcb_${{ inputs.pcb-dir-prefix }}/project.kicad_sch'
         board: 'pcb_${{ inputs.pcb-dir-prefix }}/panelize/project-panel.kicad_pcb'
