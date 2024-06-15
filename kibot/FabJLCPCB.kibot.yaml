@@ -163,7 +163,8 @@ outputs:
           dest: /
         - from_output: _JLCPCB_drill@_KIBOT_IMPORT_ID@
           dest: /
-     
+
+...
 definitions:
   _KIBOT_POS_ONLY_SMD: true
   _KIBOT_F_PASTE: '- F.Paste'
