@@ -66,8 +66,8 @@ outputs:
     dir: @_KIBOT_MANF_DIR@
     options:
       pth_and_npth_single_file: false
-      pth_id: '-PTH'
-      npth_id: '-NPTH'
+#      pth_id: '-PTH'
+#      npth_id: '-NPTH'
       metric_units: true
       map: gerber
       route_mode_for_oval_holes: false
@@ -151,7 +151,7 @@ definitions:
   _KIBOT_BOM_ENABLED: true
   _KIBOT_PLOT_FOOTPRINT_REFS: true
   _KIBOT_PLOT_FOOTPRINT_VALUES: false
-  _KIBOT_COMPRESS_MOVE: true
+  _KIBOT_COMPRESS_MOVE: false
   _KIBOT_GERBER_LAYERS: |
       - copper
             - F.SilkS
